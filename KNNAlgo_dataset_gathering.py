@@ -68,11 +68,10 @@ for player in active_players_df['zipped_id_name'].to_list():
 print(len(active_players_df_with_stats_list))
 
 
+active_players_df_with_stats_df = pd.DataFrame(active_players_df_with_stats_list)
+print(active_players_df_with_stats_df.head())
 
-
-
-
-
+active_players_df_with_stats_df.to_csv('active_players_df_with_stats.csv')
 
 
 
