@@ -259,9 +259,9 @@ def create_heatmap(player_name , season_id , ax , f):
     c = ["darkred","red","lightcoral","white", "palegreen","green","darkgreen"]
     v = [0, .15 ,.25, .33 , 0.45 , .55 ,1.]
     l = list(zip(v,c))
-    cmap_heat = LinearSegmentedColormap.from_list('rg',l, N=256)
+    cmap= plt.cm.gist_heat_r
     
-    heat_map = nba.heatmap(final_player_df.LOC_X, final_player_df.LOC_Y,final_player_df.SHOT_MADE_FLAG, bins = 5 , cmap = cmap_heat, title = f"{player_name.title()} efficiency {season_id} Season" , ax = ax , facecolor_alpha= 1)
+    heat_map = nba.heatmap(final_player_df.LOC_X, final_player_df.LOC_Y,final_player_df.SHOT_MADE_FLAG , cmap = cmap, title = f"{player_name.title()} efficiency {season_id} Season" , ax = ax)
     f.colorbar(heat_map)
 
 
