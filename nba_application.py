@@ -7,6 +7,7 @@ Created on Fri Jun 10 11:25:44 2022
 
 from tkinter import *
 import os
+print(os.getcwd())
 import tkinter as tk
 import customtkinter
 from basketballshotchartvisualization import shot_chart_use , draw_court ,  create_heatmap , create_jointgrid , create_hex_map , create_shot_chart, create_kde , shot_chart
