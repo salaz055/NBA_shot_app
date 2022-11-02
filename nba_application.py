@@ -293,6 +293,12 @@ class App(customtkinter.CTk):
                                      variable= self.similar_player)
         self.similar_players_select.grid(row = 0, column=1, pady=10, padx=10, columnspan = 1)
         
+        self.similar_player_year = customtkinter.StringVar(value="2016-17")
+        self.similar_player_year_select = customtkinter.CTkComboBox(master=self.frame_right_bot,
+                                     values=['2016-17' , '2017-18', '2018-19' ,'2019-20' ,'2020-21' ,'2021-22'],
+                                     variable=self.similar_player_year)
+        self.similar_player_year_select.grid(row = 0, column= 2, pady=10, padx=10, columnspan = 1) 
+        
         self.similar_players_button = customtkinter.CTkButton(master = self.frame_right_bot,
                                                            width = 120,
                                                            height = 32,
@@ -302,14 +308,14 @@ class App(customtkinter.CTk):
                                                            command = self.similar_players_button_click)
         
         
-        self.similar_players_button.grid(row = 0 , column = 2 , pady=10, padx=10, columnspan = 1)
+        self.similar_players_button.grid(row = 0 , column = 3 , pady=10, padx=10, columnspan = 1)
         
         
         self.similar_player_label = customtkinter.CTkLabel(master=self.frame_right_bot,
                                               text="Similar Player Comparison",
                                               text_font=("Roboto Medium", -16))
         
-        self.similar_player_label.grid(row=0, column=3, pady=10, padx=10)
+        self.similar_player_label.grid(row=0, column=4, pady=10, padx=10)
         
     
     def made_shots_button_4_click(self):
@@ -349,20 +355,20 @@ class App(customtkinter.CTk):
         f = Figure(figsize = (5,5) , dpi = 100)
         ax = f.add_subplot(111)
         
-        shot_chart_use(self.similar_player.get().lower(), self.year.get() , ax)
+        shot_chart_use(self.similar_player.get().lower(), self.similar_player_year.get() , ax)
         
         
         canvas = FigureCanvasTkAgg(f , master = window)
         canvas.draw()
         canvas.get_tk_widget().pack(side = tk.TOP , fill = tk.BOTH , expand = True)
-        window.title(f'{self.similar_player.get().title()} Shot Chart for {self.year.get()} Season')
+        window.title(f'{self.similar_player.get().title()} Shot Chart for {self.similar_player_year.get()} Season')
         
         toolbar = NavigationToolbar2Tk(canvas, window)
         
         toolbar.update()
         canvas.get_tk_widget().pack()
         
-        get_distance_df(self.similar_player.get().lower() , self.year.get() , frame = window)
+        get_distance_df(self.similar_player.get().lower() , self.similar_player_year.get() , frame = window)
         
 
 if __name__ == "__main__":

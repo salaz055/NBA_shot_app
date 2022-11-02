@@ -9,12 +9,13 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-
-
+import nba_api as nba
+from nba_api.stats.endpoints import playercareerstats
+from nba_api.stats.endpoints import teamplayerdashboard
 df = pd.read_csv('active_players_df_with_stats.csv')
 df = df.dropna(axis = 0)
 df = df.drop('Unnamed: 0' , axis = 1)
-print(df.columns)
+print(df.shape)
 #%%
 
 fig, axes = plt.subplots(2 , 1 , figsize= (10 , 7))
@@ -38,3 +39,18 @@ sns.heatmap(df_correlations , annot = True)
 #%%
 plt.figure(figsize = (10, 7))
 sns.scatterplot(x = 'Age' , y = 'FG3A/GP' , data = df)
+
+#%%
+from nba_api.stats.endpoints import commonteamroster
+from nba_api.stats.static import players
+
+active_ids = df['id'].tolist()
+
+
+def get_team(player_name):
+    nba_players = players.get_players()
+    player_id = [player for player in nba_players if player['full_name'].lower() == player_name][0]['id']
+    
+    team = commonteamroster.CommonTeamRoster(team_id = '1610612740').get_data_frames()[0]
+    return team['PLAYER'].tolist()
+
