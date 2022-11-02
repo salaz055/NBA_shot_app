@@ -104,8 +104,30 @@ def get_distance_df(player_name , season_id , frame):
     
     for index, row in player_df.iterrows():
         tree.insert("",0,text=index,values=list(row))
+        
+def find_similar_players(player_name):
+    df = pd.read_csv('active_players_df_labels_lower.csv')
+    label = int(df[df['full_name'] == player_name]['labels'].values)
+    df_player_group = df[df['labels'] == label].sort_values('PTS/GP' , ascending = False).reset_index()
+    player_index = int(df_player_group[df_player_group['full_name'] == player_name].index.values)
+    
+    if player_index < 5:
+        player_range = np.arange(0 , 11, 1)
+        similar_players = df_player_group.loc[np.logical_and(df_player_group.index.isin(player_range) , df_player_group['full_name'] != player_name)]['full_name'].tolist()
+        
+    elif player_index > len(df_player_group) - 5:
+        player_range = np.arange(len(df_player_group) - 11, len(df_player_group), 1)
+        similar_players = df_player_group.loc[np.logical_and(df_player_group.index.isin(player_range) , df_player_group['full_name'] != player_name)]['full_name'].tolist()
+        
+        
+    else:
+        player_range = np.arange(player_index - 5 , player_index + 6, 1)
+        similar_players = df_player_group.loc[np.logical_and(df_player_group.index.isin(player_range) , df_player_group['full_name'] != player_name)]['full_name'].tolist()
+    
+    return similar_players
     
 
 if __name__ == "__main__":
-    get_distance_df('andrew wiggins', '2017-18')
+    sims = find_similar_players('draymond green')
+    print(sims)
     
