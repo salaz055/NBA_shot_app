@@ -1,0 +1,8 @@
+customtkinter==4.3.0
+matplotlib==3.5.1
+nba_api==1.1.11
+nbashots==0.1.0a9
+numpy==1.21.5
+pandas==1.4.2
+Pillow==9.3.0
+seaborn==0.6.0
