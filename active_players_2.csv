@@ -1,0 +1,559 @@
+Name,Team,Position,Age,Height,Height_i,Weight,College,Salary
+Juhann Begarin,Boston Celtics,SG,19,"6' 5""",6.5,185,nan,nan
+Jaylen Brown,Boston Celtics,SG,24,"6' 6""",6.6,223,California,26758928
+Kris Dunn,Boston Celtics,PG,27,"6' 3""",6.3,205,Providence,5005350
+Carsen Edwards,Boston Celtics,PG,23,"5' 11""",5.11,200,Purdue,1782621
+Tacko Fall,Boston Celtics,C,25,"7' 5""",7.5,311,UCF,nan
+Bruno Fernando,Boston Celtics,F,23,"6' 9""",6.9,240,Maryland,1782621
+Al Horford,Boston Celtics,C,35,"6' 9""",6.9,240,Florida,27000000
+Enes Kanter,Boston Celtics,C,29,"6' 10""",6.1,250,Kentucky,1669178
+Luke Kornet,Boston Celtics,C,26,"7' 2""",7.2,250,Vanderbilt,nan
+Romeo Langford,Boston Celtics,SG,21,"6' 4""",6.4,216,Indiana,3804360
+Aaron Nesmith,Boston Celtics,SF,21,"6' 5""",6.5,215,Vanderbilt,3631200
+Jabari Parker,Boston Celtics,PF,26,"6' 8""",6.8,245,Duke,2283034
+Payton Pritchard,Boston Celtics,PG,23,"6' 1""",6.1,195,Oregon,2137440
+Josh Richardson,Boston Celtics,SG,27,"6' 5""",6.5,200,Tennessee,11615328
+Dennis Schroder,Boston Celtics,PG,27,"6' 3""",6.3,172,nan,5890000
+Marcus Smart,Boston Celtics,PG,27,"6' 3""",6.3,220,Oklahoma State,14339285
+Jayson Tatum,Boston Celtics,SF,23,"6' 8""",6.8,210,Duke,28103500
+Grant Williams,Boston Celtics,PF,22,"6' 6""",6.6,236,Tennessee,2617800
+Robert Williams III,Boston Celtics,C,23,"6' 8""",6.8,237,Texas A&M,3661976
+LaMarcus Aldridge,Brooklyn Nets,F,36,"6' 11""",6.11,250,Texas,nan
+DeAndre' Bembry,Brooklyn Nets,SG,27,"6' 5""",6.5,210,Saint Joseph's,1669178
+Bruce Brown,Brooklyn Nets,SF,25,"6' 4""",6.4,202,Miami (FL),4736102
+Jevon Carter,Brooklyn Nets,PG,25,"6' 1""",6.1,200,West Virginia,3650000
+Nicolas Claxton,Brooklyn Nets,PF,22,"6' 11""",6.11,215,Georgia,1782621
+Sekou Doumbouya,Brooklyn Nets,SF,20,"6' 8""",6.8,230,nan,3613680
+Kevin Durant,Brooklyn Nets,PF,32,"6' 10""",6.1,240,Texas,42018900
+Kessler Edwards,Brooklyn Nets,SF,21,"6' 8""",6.8,215,Pepperdine,nan
+RaiQuan Gray,Brooklyn Nets,PF,22,"6' 8""",6.8,260,Florida State,nan
+Blake Griffin,Brooklyn Nets,PF,32,"6' 9""",6.9,250,Oklahoma,1669178
+James Harden,Brooklyn Nets,SG,32,"6' 5""",6.5,220,Arizona State,44310840
+Joe Harris,Brooklyn Nets,SF,30,"6' 6""",6.6,220,Virginia,17357143
+Kyrie Irving,Brooklyn Nets,PG,29,"6' 2""",6.2,195,Duke,35328700
+Mike James,Brooklyn Nets,PG,31,"6' 1""",6.1,175,Eastern Arizona Coll. (J.C.),nan
+Alize Johnson,Brooklyn Nets,PF,25,"6' 7""",6.7,212,Missouri State,1762796
+James Johnson,Brooklyn Nets,PF,34,"6' 7""",6.7,240,Wake Forest,1669178
+Tyler Johnson,Brooklyn Nets,SG,29,"6' 3""",6.3,186,Fresno State,nan
+Timothe Luwawu-Cabarrot,Brooklyn Nets,SG,26,"6' 7""",6.7,220,nan,nan
+Patty Mills,Brooklyn Nets,PG,33,"6' 1""",6.1,180,Saint Mary's,5890000
+Paul Millsap,Brooklyn Nets,PF,36,"6' 7""",6.7,257,Louisiana Tech,nan
+Jahlil Okafor,Brooklyn Nets,C,25,"6' 10""",6.1,270,Duke,2130023
+Reggie Perry,Brooklyn Nets,PF,21,"6' 8""",6.8,250,Mississippi State,nan
+Day'Ron Sharpe,Brooklyn Nets,C,19,"6' 11""",6.11,265,North Carolina,2009040
+Cameron Thomas,Brooklyn Nets,SG,19,"6' 4""",6.4,210,LSU,2036280
+Marcus Zegarowski,Brooklyn Nets,PG,23,"6' 2""",6.2,181,Creighton,nan
+Dwayne Bacon,New York Knicks,SG,26,"6' 6""",6.6,221,Florida State,1824003
+RJ Barrett,New York Knicks,SG,21,"6' 6""",6.6,214,Duke,8623920
+Alec Burks,New York Knicks,SG,30,"6' 6""",6.6,214,Colorado,9536000
+Evan Fournier,New York Knicks,G,28,"6' 7""",6.7,205,nan,17000000
+Taj Gibson,New York Knicks,C,36,"6' 9""",6.9,232,USC,4910000
+Quentin Grimes,New York Knicks,SG,21,"6' 5""",6.5,205,Houston,2168760
+Jared Harper,New York Knicks,PG,23,"5' 10""",5.1,175,Auburn,nan
+Kevin Knox II,New York Knicks,SF,22,"6' 7""",6.7,215,Kentucky,5845979
+Miles McBride,New York Knicks,PG,20,"6' 2""",6.2,200,West Virginia,925258
+Nerlens Noel,New York Knicks,C,27,"6' 11""",6.11,220,Kentucky,8000000
+Frank Ntilikina,New York Knicks,PG,23,"6' 4""",6.4,200,nan,nan
+Norvel Pelle,New York Knicks,PF,28,"6' 10""",6.1,231,St. John's,nan
+Theo Pinson,New York Knicks,SG,25,"6' 5""",6.5,212,North Carolina,nan
+Immanuel Quickley,New York Knicks,SG,22,"6' 3""",6.3,190,Kentucky,2210640
+Julius Randle,New York Knicks,PF,26,"6' 8""",6.8,250,Kentucky,21780000
+Mitchell Robinson,New York Knicks,C,23,"7' 0""",7.0,240,nan,1802057
+Derrick Rose,New York Knicks,PG,32,"6' 2""",6.2,200,Memphis,13445120
+Jericho Sims,New York Knicks,PF,22,"6' 10""",6.1,245,Texas,nan
+Obi Toppin,New York Knicks,PF,23,"6' 9""",6.9,220,Dayton,5105160
+Luca Vildoza,New York Knicks,PG,26,"6' 3""",6.3,190,nan,3325000
+Kemba Walker,New York Knicks,PG,31,"6' 0""",6.0,184,Connecticut,36016200
+Charles Bassey,Philadelphia Sixers,C,20,"6' 11""",6.11,235,Western Kentucky,nan
+Gary Clark,Philadelphia Sixers,SF,26,"6' 6""",6.6,225,Cincinnati,nan
+Seth Curry,Philadelphia Sixers,SG,31,"6' 2""",6.2,185,Duke,8207518
+Andre Drummond,Philadelphia Sixers,C,28,"6' 10""",6.1,279,Connecticut,1669178
+Joel Embiid,Philadelphia Sixers,C,27,"7' 0""",7.0,280,Kansas,31579390
+Danny Green,Philadelphia Sixers,SF,34,"6' 6""",6.6,215,North Carolina,10000000
+Tobias Harris,Philadelphia Sixers,PF,29,"6' 8""",6.8,226,Tennessee,35995950
+Aaron Henry,Philadelphia Sixers,F,22,"6' 6""",6.6,210,Michigan State,nan
+Isaiah Joe,Philadelphia Sixers,SG,22,"6' 4""",6.4,165,Arkansas,1517981
+Furkan Korkmaz,Philadelphia Sixers,SG,24,"6' 7""",6.7,202,nan,4629630
+Tyrese Maxey,Philadelphia Sixers,PG,20,"6' 2""",6.2,200,Kentucky,2602920
+Shake Milton,Philadelphia Sixers,SG,24,"6' 5""",6.5,205,SMU,1846738
+Georges Niang,Philadelphia Sixers,F,28,"6' 7""",6.7,230,Iowa State,3300000
+Filip Petrusev,Philadelphia Sixers,PF,21,"6' 11""",6.11,235,Gonzaga,nan
+Paul Reed,Philadelphia Sixers,SF,22,"6' 9""",6.9,210,DePaul,1517981
+Grant Riller,Philadelphia Sixers,G,24,"6' 2""",6.2,190,Charleston,nan
+Mike Scott,Philadelphia Sixers,PF,33,"6' 7""",6.7,237,Virginia,nan
+Ben Simmons,Philadelphia Sixers,PG,25,"6' 11""",6.11,240,LSU,33003936
+Jaden Springer,Philadelphia Sixers,PG,18,"6' 4""",6.4,204,Tennessee,2023800
+Matisse Thybulle,Philadelphia Sixers,SG,24,"6' 5""",6.5,201,Washington,2840160
+Precious Achiuwa,Toronto Raptors,F,21,"6' 8""",6.8,225,Memphis,2711280
+OG Anunoby,Toronto Raptors,SF,24,"6' 7""",6.7,232,Indiana,16071429
+Dalano Banton,Toronto Raptors,PG,21,"6' 9""",6.9,204,Nebraska,925258
+Scottie Barnes,Toronto Raptors,SF,20,"6' 9""",6.9,227,Florida State,7280520
+Khem Birch,Toronto Raptors,C,28,"6' 9""",6.9,233,UNLV,6350000
+Isaac Bonga,Toronto Raptors,G,21,"6' 8""",6.8,180,nan,1669178
+Chris Boucher,Toronto Raptors,PF,28,"6' 9""",6.9,200,New Mexico JC,7020000
+Sam Dekker,Toronto Raptors,F,27,"6' 9""",6.9,219,Wisconsin,1669178
+Goran Dragic,Toronto Raptors,PG,35,"6' 3""",6.3,190,nan,19440000
+Malachi Flynn,Toronto Raptors,PG,23,"6' 1""",6.1,175,San Diego State,2048040
+Freddie Gillespie,Toronto Raptors,SF,24,"6' 9""",6.9,245,Baylor,1517981
+David Johnson,Toronto Raptors,PG,20,"6' 5""",6.5,210,Louisville,nan
+Stanley Johnson,Toronto Raptors,SF,25,"6' 6""",6.6,242,Arizona,nan
+Pascal Siakam,Toronto Raptors,PG,27,"6' 9""",6.9,230,New Mexico State,33003936
+Gary Trent Jr.,Toronto Raptors,SG,22,"6' 5""",6.5,209,Duke,16000000
+Fred VanVleet,Toronto Raptors,SG,27,"6' 1""",6.1,197,Wichita State,19675926
+Yuta Watanabe,Toronto Raptors,SF,26,"6' 9""",6.9,215,George Washington,1762796
+Ryan Arcidiacono,Chicago Bulls,PG,27,"6' 3""",6.3,195,Villanova,3000000
+Lonzo Ball,Chicago Bulls,PG,23,"6' 6""",6.6,190,UCLA,18604651
+Tony Bradley,Chicago Bulls,C,23,"6' 10""",6.1,248,North Carolina,1669178
+Troy Brown Jr.,Chicago Bulls,SF,22,"6' 6""",6.6,215,Oregon,5170564
+Alex Caruso,Chicago Bulls,SG,27,"6' 4""",6.4,186,Texas A&M,8650651
+DeMar DeRozan,Chicago Bulls,SF,32,"6' 6""",6.6,220,USC,26000000
+Ayo Dosunmu,Chicago Bulls,SG,21,"6' 5""",6.5,200,Illinois,925258
+Devon Dotson,Chicago Bulls,PG,22,"6' 2""",6.2,185,Kansas,nan
+Cristiano Felicio,Chicago Bulls,PF,29,"6' 11""",6.11,270,nan,nan
+Javonte Green,Chicago Bulls,PG,28,"6' 4""",6.4,205,Radford,1669178
+Derrick Jones Jr.,Chicago Bulls,SF,24,"6' 5""",6.5,210,UNLV,9720900
+Zach LaVine,Chicago Bulls,SG,26,"6' 5""",6.5,200,UCLA,19500000
+Adam Mokoka,Chicago Bulls,SG,23,"6' 4""",6.4,190,nan,nan
+Denzel Valentine,Chicago Bulls,SG,27,"6' 4""",6.4,220,Michigan State,nan
+Nikola Vucevic,Chicago Bulls,C,30,"6' 11""",6.11,260,USC,24000000
+Coby White,Chicago Bulls,PG,21,"6' 5""",6.5,195,North Carolina,5837760
+Patrick Williams,Chicago Bulls,PF,20,"6' 7""",6.7,215,Florida State,7422000
+Jarrett Allen,Cleveland Cavaliers,C,23,"6' 11""",6.11,243,Texas,20000000
+Damyean Dotson,Cleveland Cavaliers,SG,27,"6' 5""",6.5,210,Houston,2000000
+Darius Garland,Cleveland Cavaliers,PG,21,"6' 1""",6.1,192,Vanderbilt,7040880
+Mfiondu Kabengele,Cleveland Cavaliers,C,24,"6' 9""",6.9,250,Florida State,1701593
+Kevin Love,Cleveland Cavaliers,PF,33,"6' 8""",6.8,251,UCLA,31258256
+Lauri Markkanen,Cleveland Cavaliers,PF,24,"7' 0""",7.0,240,Arizona,15690909
+Evan Mobley,Cleveland Cavaliers,C,20,"7' 0""",7.0,215,USC,8075160
+Isaac Okoro,Cleveland Cavaliers,SF,20,"6' 5""",6.5,225,Auburn,6720720
+Cedi Osman,Cleveland Cavaliers,SF,26,"6' 7""",6.7,230,nan,8133334
+Ricky Rubio,Cleveland Cavaliers,G,30,"6' 3""",6.3,190,nan,17800000
+Collin Sexton,Cleveland Cavaliers,PG,22,"6' 1""",6.1,190,Alabama,6439671
+Lamar Stevens,Cleveland Cavaliers,F,24,"6' 6""",6.6,230,Penn State,1517981
+Brodric Thomas,Cleveland Cavaliers,G,24,"6' 5""",6.5,185,Truman State,nan
+Dean Wade,Cleveland Cavaliers,PF,24,"6' 9""",6.9,228,Kansas State,1782621
+Dylan Windler,Cleveland Cavaliers,SG,24,"6' 6""",6.6,196,Belmont,2239200
+Saddiq Bey,Detroit Pistons,SF,22,"6' 7""",6.7,215,Villanova,2824320
+Cade Cunningham,Detroit Pistons,PG,19,"6' 7""",6.7,220,Oklahoma State,10050120
+Hamidou Diallo,Detroit Pistons,SG,23,"6' 5""",6.5,202,Kentucky,5200000
+Luka Garza,Detroit Pistons,C,22,"6' 10""",6.1,243,Iowa,nan
+Jerami Grant,Detroit Pistons,SF,27,"6' 8""",6.8,210,Syracuse,20002500
+Killian Hayes,Detroit Pistons,PG,20,"6' 5""",6.5,195,nan,5572680
+Frank Jackson,Detroit Pistons,PG,23,"6' 3""",6.3,205,Duke,3000000
+Josh Jackson,Detroit Pistons,SG,24,"6' 8""",6.8,207,Kansas,5005350
+Cory Joseph,Detroit Pistons,PG,30,"6' 3""",6.3,200,Texas,12600000
+Balsa Koprivica,Detroit Pistons,C,21,"7' 1""",7.1,240,Florida State,nan
+Saben Lee,Detroit Pistons,PG,22,"6' 2""",6.2,183,Vanderbilt,1489065
+Isaiah Livers,Detroit Pistons,PF,23,"6' 6""",6.6,232,Michigan,1057260
+Trey Lyles,Detroit Pistons,PF,25,"6' 9""",6.9,234,Kentucky,2500000
+Rodney McGruder,Detroit Pistons,SG,30,"6' 4""",6.4,205,Kansas State,1669178
+Kelly Olynyk,Detroit Pistons,PF,30,"6' 11""",6.11,240,Gonzaga,12195122
+Chris Smith,Detroit Pistons,F,21,"6' 8""",6.8,215,UCLA,nan
+Dennis Smith Jr.,Detroit Pistons,PG,23,"6' 2""",6.2,205,North Carolina State,nan
+Isaiah Stewart,Detroit Pistons,C,20,"6' 8""",6.8,250,Washington,3277080
+Goga Bitadze,Indiana Pacers,C,22,"6' 11""",6.11,250,nan,3098400
+Oshae Brissett,Indiana Pacers,SF,23,"6' 7""",6.7,210,Syracuse,1701593
+Malcolm Brogdon,Indiana Pacers,PG,28,"6' 5""",6.5,229,Virginia,21700000
+Torrey Craig,Indiana Pacers,SF,30,"6' 7""",6.7,221,USC Upstate,4878049
+Chris Duarte,Indiana Pacers,SG,24,"6' 6""",6.6,190,Oregon,3749400
+Justin Holiday,Indiana Pacers,SF,32,"6' 6""",6.6,180,Washington,6006420
+Isaiah Jackson,Indiana Pacers,PF,19,"6' 10""",6.1,205,Kentucky,2451240
+DeJon Jarreau,Indiana Pacers,F,23,"6' 5""",6.5,185,Houston,nan
+Jeremy Lamb,Indiana Pacers,SG,29,"6' 5""",6.5,180,Connecticut,10500000
+Caris LeVert,Indiana Pacers,SG,27,"6' 6""",6.6,205,Michigan,17500000
+Kelan Martin,Indiana Pacers,SG,26,"6' 5""",6.5,230,Butler,1701593
+T.J. McConnell,Indiana Pacers,PG,29,"6' 1""",6.1,190,Arizona,7500000
+Domantas Saboni,Indiana Pacers,PF,25,"6' 11""",6.11,240,Gonzaga,19800000
+JaKarr Sampson,Indiana Pacers,SF,28,"6' 7""",6.7,214,St. John's,nan
+Cassius Stanley,Indiana Pacers,SG,22,"6' 5""",6.5,190,Duke,nan
+Edmond Sumner,Indiana Pacers,PG,25,"6' 4""",6.4,196,Xavier,2320000
+Myles Turner,Indiana Pacers,C,25,"6' 11""",6.11,250,Texas,18000000
+T.J. Warren,Indiana Pacers,SF,28,"6' 8""",6.8,220,North Carolina State,12940000
+Grayson Allen,Milwaukee Bucks,SG,25,"6' 4""",6.4,198,Duke,4054695
+Giannis Antetokounmpo,Milwaukee Bucks,PF,26,"6' 11""",6.11,242,nan,39344970
+Thanasis Antetokounmpo,Milwaukee Bucks,SF,29,"6' 6""",6.6,219,nan,1669178
+Elijah Bryant,Milwaukee Bucks,SG,26,"6' 5""",6.5,210,BYU,1517981
+Pat Connaughton,Milwaukee Bucks,SG,28,"6' 5""",6.5,209,Notre Dame,5333334
+Donte DiVincenzo,Milwaukee Bucks,SG,24,"6' 4""",6.4,203,Villanova,4675830
+Mamadi Diakite,Milwaukee Bucks,PF,24,"6' 9""",6.9,228,Virginia,1517981
+George Hill,Milwaukee Bucks,G,35,"6' 4""",6.4,188,IUPUI,4000000
+Jrue Holiday,Milwaukee Bucks,PG,31,"6' 3""",6.3,205,UCLA,32413333
+Rodney Hood,Milwaukee Bucks,SG,28,"6' 8""",6.8,208,Duke,1669178
+Justin Jackson,Milwaukee Bucks,SF,26,"6' 8""",6.8,220,North Carolina,nan
+Rodions Kurucs,Milwaukee Bucks,SF,23,"6' 9""",6.9,228,nan,nan
+Brook Lopez,Milwaukee Bucks,C,33,"7' 0""",7.0,282,Stanford,13302325
+Sandro Mamukelashvili,Milwaukee Bucks,C,22,"6' 11""",6.11,240,Seton Hall,nan
+Khris Middleton,Milwaukee Bucks,SF,30,"6' 7""",6.7,222,Texas A&M,35500000
+Jordan Nwora,Milwaukee Bucks,SF,22,"6' 8""",6.8,225,Louisville,1517981
+Semi Ojeleye,Milwaukee Bucks,PF,26,"6' 6""",6.6,240,SMU,1669178
+Bobby Portis,Milwaukee Bucks,C,26,"6' 10""",6.1,250,Arkansas,nan
+Jeff Teague,Milwaukee Bucks,PG,33,"6' 3""",6.3,195,Wake Forest,nan
+Axel Toupane,Milwaukee Bucks,SG,29,"6' 7""",6.7,210,nan,nan
+Bogdan Bogdanovic,Atlanta Hawks,SG,29,"6' 6""",6.6,220,nan,18000000
+Clint Capela,Atlanta Hawks,C,27,"6' 10""",6.1,240,nan,18603448
+John Collins,Atlanta Hawks,PF,23,"6' 9""",6.9,235,Wake Forest,23000000
+Sharife Cooper,Atlanta Hawks,PG,20,"6' 1""",6.1,180,Auburn,nan
+Gorgui Dieng,Atlanta Hawks,C,31,"6' 10""",6.1,252,Louisville,4000000
+Danilo Gallinari,Atlanta Hawks,PF,33,"6' 10""",6.1,233,nan,20475000
+Brandon Goodwin,Atlanta Hawks,PG,25,"6' 0""",6.0,180,Florida Gulf Coast,nan
+Solomon Hill,Atlanta Hawks,SF,30,"6' 6""",6.6,226,Arizona,1669178
+Kevin Huerter,Atlanta Hawks,SG,23,"6' 7""",6.7,190,Maryland,4253357
+De'Andre Hunter,Atlanta Hawks,SF,23,"6' 8""",6.8,225,Virginia,7775400
+Jalen Johnson,Atlanta Hawks,SF,19,"6' 9""",6.9,220,Duke,2659580
+Skylar Mays,Atlanta Hawks,SG,24,"6' 4""",6.4,205,LSU,nan
+Onyeka Okongwu,Atlanta Hawks,PF,20,"6' 8""",6.8,235,USC,6104280
+Cam Reddish,Atlanta Hawks,SF,22,"6' 8""",6.8,218,Duke,4670160
+Lou Williams,Atlanta Hawks,SG,34,"6' 1""",6.1,175,nan,5000000
+Delon Wright,Atlanta Hawks,SG,29,"6' 5""",6.5,185,Utah,8526316
+Trae Young,Atlanta Hawks,PG,22,"6' 1""",6.1,180,Oklahoma,8326471
+LaMelo Ball,Charlotte Hornets,PG,20,"6' 6""",6.6,180,nan,8231760
+Bismack Biyombo,Charlotte Hornets,C,29,"6' 8""",6.8,255,nan,nan
+James Bouknight,Charlotte Hornets,SG,20,"6' 5""",6.5,190,Connecticut,4154400
+Miles Bridges,Charlotte Hornets,SF,23,"6' 6""",6.6,225,Michigan State,5421493
+Vernon Carey Jr.,Charlotte Hornets,C,20,"6' 9""",6.9,270,Duke,1517981
+Nate Darling,Charlotte Hornets,SG,23,"6' 6""",6.6,200,Delaware,nan
+Gordon Hayward,Charlotte Hornets,SF,31,"6' 7""",6.7,225,Butler,29925000
+Wes Iwundu,Charlotte Hornets,SF,26,"6' 6""",6.6,195,Kansas State,1824003
+Kai Jones,Charlotte Hornets,PF,20,"6' 11""",6.11,218,Texas,2770560
+Scottie Lewis,Charlotte Hornets,SG,21,"6' 5""",6.5,189,Florida,nan
+Caleb Martin,Charlotte Hornets,SF,25,"6' 5""",6.5,205,Nevada,nan
+Cody Martin,Charlotte Hornets,SF,25,"6' 5""",6.5,205,Nevada,1782621
+Jalen McDaniels,Charlotte Hornets,PF,23,"6' 9""",6.9,205,San Diego State,1782621
+Kelly Oubre Jr.,Charlotte Hornets,SG,25,"6' 7""",6.7,203,Kansas,12000000
+Mason Plumlee,Charlotte Hornets,C,31,"6' 11""",6.11,254,Duke,9248333
+Nick Richards,Charlotte Hornets,C,23,"7' 0""",7.0,245,Kentucky,1517981
+Terry Rozier,Charlotte Hornets,SG,27,"6' 1""",6.1,190,Louisville,17905263
+Ish Smith,Charlotte Hornets,PG,33,"6' 0""",6.0,175,Wake Forest,4500000
+JT Thor,Charlotte Hornets,PF,19,"6' 10""",6.1,205,Auburn,1250000
+Brad Wanamaker,Charlotte Hornets,PG,32,"6' 3""",6.3,210,Pittsburgh,nan
+P.J. Washington,Charlotte Hornets,PF,23,"6' 7""",6.7,230,Kentucky,4215120
+Bam Adebayo,Miami Heat,C,24,"6' 9""",6.9,255,Kentucky,28103500
+Jimmy Butler,Miami Heat,SF,31,"6' 7""",6.7,230,Marquette,36016200
+Dewayne Dedmon,Miami Heat,C,32,"7' 0""",7.0,245,USC,1669178
+Marcus Garrett,Miami Heat,G,22,"6' 5""",6.5,195,Kansas,nan
+Udonis Haslem,Miami Heat,PF,41,"6' 8""",6.8,235,Florida,1669178
+Tyler Herro,Miami Heat,PG,21,"6' 5""",6.5,195,Kentucky,4004280
+Kyle Lowry,Miami Heat,PG,35,"6' 0""",6.0,196,Villanova,26894128
+Markieff Morris,Miami Heat,PF,32,"6' 9""",6.9,245,Kansas,1669178
+RJ Nembhard,Miami Heat,SG,22,"6' 5""",6.5,200,TCU,nan
+KZ Okpala,Miami Heat,SF,22,"6' 8""",6.8,215,Stanford,1782621
+Victor Oladipo,Miami Heat,SG,29,"6' 4""",6.4,213,Indiana,1669178
+Duncan Robinson,Miami Heat,SG,27,"6' 7""",6.7,215,Michigan,15650000
+D.J. Stewart Jr.,Miami Heat,G,22,"6' 6""",6.6,205,Mississippi State,nan
+Max Strus,Miami Heat,SG,25,"6' 5""",6.5,215,DePaul,1669178
+P.J. Tucker,Miami Heat,PF,36,"6' 5""",6.5,245,Texas,7000000
+Gabe Vincent,Miami Heat,PG,25,"6' 3""",6.3,200,UC Santa Barbara,1669178
+Omer Yurtseven,Miami Heat,C,23,"7' 0""",7.0,275,Georgetown,1489065
+Cole Anthony,Orlando Magic,PG,21,"6' 2""",6.2,185,North Carolina,3449400
+Mo Bamba,Orlando Magic,C,23,"7' 0""",7.0,231,Texas,7568743
+Ignas Brazdeikis,Orlando Magic,SF,22,"6' 6""",6.6,221,Michigan,nan
+Wendell Carter Jr.,Orlando Magic,C,22,"6' 10""",6.1,270,Duke,6920027
+Michael Carter-Williams,Orlando Magic,PG,29,"6' 5""",6.5,190,Syracuse,3300000
+Jeff Dowtin,Orlando Magic,G,24,"6' 3""",6.3,185,Rhode Island,nan
+James Ennis III,Orlando Magic,SF,31,"6' 6""",6.6,215,Long Beach State,nan
+Markelle Fultz,Orlando Magic,PG,23,"6' 3""",6.3,209,Washington,16500000
+Hassani Gravett,Orlando Magic,G,25,"6' 2""",6.2,188,South Carolina,nan
+R.J. Hampton,Orlando Magic,PG,20,"6' 4""",6.4,175,nan,2303040
+Gary Harris,Orlando Magic,SG,26,"6' 4""",6.4,210,Michigan State,20482143
+Jonathan Isaac,Orlando Magic,PF,23,"6' 11""",6.11,230,Florida State,17400000
+Robin Lopez,Orlando Magic,C,33,"7' 0""",7.0,281,Stanford,5000000
+Chuma Okeke,Orlando Magic,PF,23,"6' 6""",6.6,229,Auburn,3277080
+Chasson Randle,Orlando Magic,PG,28,"6' 2""",6.2,185,Stanford,nan
+Terrence Ross,Orlando Magic,SG,30,"6' 6""",6.6,206,Washington,12500000
+Jalen Suggs,Orlando Magic,SG,20,"6' 4""",6.4,205,Gonzaga,6593040
+Jon Teske,Orlando Magic,C,24,"7' 1""",7.1,265,Michigan,nan
+Sindarius Thornwell,Orlando Magic,SG,26,"6' 4""",6.4,215,South Carolina,nan
+Franz Wagner,Orlando Magic,SF,20,"6' 9""",6.9,220,Michigan,5007840
+Moritz Wagner,Orlando Magic,C,24,"6' 11""",6.11,245,Michigan,1669178
+Deni Avdija,Washington Wizards,SF,20,"6' 9""",6.9,210,nan,4692840
+Bradley Beal,Washington Wizards,SG,28,"6' 3""",6.3,207,Florida,33724200
+Davis Bertans,Washington Wizards,SF,28,"6' 10""",6.1,225,nan,16000000
+Thomas Bryant,Washington Wizards,C,24,"6' 10""",6.1,248,Indiana,8666667
+Kentavious Caldwell-Pope,Washington Wizards,SG,28,"6' 5""",6.5,204,Georgia,13038862
+Spencer Dinwiddie,Washington Wizards,PG,28,"6' 5""",6.5,215,Colorado,17142857
+Daniel Gafford,Washington Wizards,C,22,"6' 10""",6.1,234,Arkansas,1782621
+Anthony Gill,Washington Wizards,PF,28,"6' 7""",6.7,230,Virginia,1517981
+Rui Hachimura,Washington Wizards,PF,23,"6' 8""",6.8,230,Gonzaga,4916160
+Montrezl Harrell,Washington Wizards,C,27,"6' 7""",6.7,240,Louisville,9720900
+Aaron Holiday,Washington Wizards,PG,24,"6' 0""",6.0,185,UCLA,3980551
+Caleb Homesley,Washington Wizards,SG,24,"6' 6""",6.6,205,Liberty,1517981
+Corey Kispert,Washington Wizards,SF,22,"6' 7""",6.7,220,Gonzaga,3383640
+Kyle Kuzma,Washington Wizards,SF,26,"6' 10""",6.1,221,Utah,13000000
+Garrison Mathews,Washington Wizards,SG,24,"6' 5""",6.5,215,David Lipscomb University,nan
+Raul Neto,Washington Wizards,PG,29,"6' 1""",6.1,180,nan,1669178
+Isaiah Todd,Washington Wizards,PF,19,"6' 10""",6.1,210,nan,1500000
+Cassius Winston,Washington Wizards,PG,23,"6' 1""",6.1,185,Michigan State,nan
+Jordan Bell,Golden State Warriors,F,26,"6' 8""",6.8,216,Oregon,nan
+Nemanja Bjelica,Golden State Warriors,PF,33,"6' 10""",6.1,234,nan,1669178
+Chris Chiozza,Golden State Warriors,F,25,"5' 11""",5.11,175,Florida,nan
+Stephen Curry,Golden State Warriors,PG,33,"6' 3""",6.3,185,Davidson,45780966
+Draymond Green,Golden State Warriors,PF,31,"6' 6""",6.6,230,Michigan State,24026712
+Andre Iguodala,Golden State Warriors,F,37,"6' 6""",6.6,215,Arizona,1669178
+Jonathan Kuminga,Golden State Warriors,PF,18,"6' 7""",6.7,225,nan,5466360
+Damion Lee,Golden State Warriors,SG,28,"6' 5""",6.5,210,Drexel,1910860
+Kevon Looney,Golden State Warriors,C,25,"6' 9""",6.9,222,UCLA,5178572
+Nico Mannion,Golden State Warriors,PG,20,"6' 2""",6.2,190,Arizona,nan
+Moses Moody,Golden State Warriors,SG,19,"6' 5""",6.5,211,Arkansas,3562200
+Mychal Mulder,Golden State Warriors,SG,27,"6' 3""",6.3,184,Kentucky,1782621
+Gary Payton II,Golden State Warriors,PG,28,"6' 3""",6.3,195,Salt Lake CC UT,1977011
+Jordan Poole,Golden State Warriors,SG,22,"6' 4""",6.4,194,Michigan,2161440
+Otto Porter Jr.,Golden State Warriors,SF,28,"6' 8""",6.8,198,Georgetown,1669178
+Klay Thompson,Golden State Warriors,SG,31,"6' 6""",6.6,215,Washington State,37980720
+Juan Toscano-Anderson,Golden State Warriors,SF,28,"6' 6""",6.6,209,Marquette,1701593
+Andrew Wiggins,Golden State Warriors,SF,26,"6' 7""",6.7,197,Kansas,31579390
+James Wiseman,Golden State Warriors,C,20,"7' 0""",7.0,240,Memphis,9166800
+Nicolas Batum,Los Angeles Clippers,PF,32,"6' 8""",6.8,230,nan,3170029
+Eric Bledsoe,Los Angeles Clippers,SG,31,"6' 1""",6.1,214,Kentucky,18125000
+Amir Coffey,Los Angeles Clippers,SG,24,"6' 7""",6.7,210,Minnesota,nan
+DeMarcus Cousins,Los Angeles Clippers,C,31,"6' 10""",6.1,270,Kentucky,nan
+Yogi Ferrell,Los Angeles Clippers,PG,28,"6' 0""",6.0,178,Indiana,1782621
+Paul George,Los Angeles Clippers,SG,31,"6' 8""",6.8,220,Fresno State,39344900
+Serge Ibaka,Los Angeles Clippers,C,31,"6' 10""",6.1,235,nan,9720900
+Reggie Jackson,Los Angeles Clippers,PG,31,"6' 2""",6.2,208,Boston College,10384500
+Keon Johnson,Los Angeles Clippers,SG,19,"6' 5""",6.5,186,Tennessee,2553120
+Luke Kennard,Los Angeles Clippers,SG,25,"6' 5""",6.5,206,Duke,13347727
+Kawhi Leonard,Los Angeles Clippers,SF,30,"6' 7""",6.7,225,San Diego State,36016200
+Terance Mann,Los Angeles Clippers,SG,24,"6' 5""",6.5,215,Florida State,1782621
+Marcus Morris Sr.,Los Angeles Clippers,SF,32,"6' 8""",6.8,218,Kansas,15627907
+Patrick Patterson,Los Angeles Clippers,PF,32,"6' 8""",6.8,235,Kentucky,nan
+Jason Preston,Los Angeles Clippers,PG,22,"6' 4""",6.4,187,Ohio,1062303
+Jay Scrubb,Los Angeles Clippers,SG,21,"6' 5""",6.5,220,John A. Logan College,nan
+Justise Winslow,Los Angeles Clippers,PF,25,"6' 6""",6.6,222,Duke,3902439
+Ivica Zubac,Los Angeles Clippers,C,24,"7' 0""",7.0,240,nan,7518518
+Kostas Antetokounmpo,Los Angeles Lakers,PF,23,"6' 10""",6.1,200,Dayton,nan
+Carmelo Anthony,Los Angeles Lakers,PF,37,"6' 7""",6.7,238,Syracuse,1669178
+Trevor Ariza,Los Angeles Lakers,SF,36,"6' 8""",6.8,215,UCLA,1669178
+Kent Bazemore,Los Angeles Lakers,SF,32,"6' 4""",6.4,195,Old Dominion,1669178
+Devontae Cacok,Los Angeles Lakers,PF,24,"6' 7""",6.7,240,North Carolina-Wilmington,nan
+Anthony Davis,Los Angeles Lakers,PF,28,"6' 10""",6.1,253,Kentucky,35361360
+Wayne Ellington,Los Angeles Lakers,SG,33,"6' 4""",6.4,207,North Carolina,1669178
+Marc Gasol,Los Angeles Lakers,C,36,"6' 11""",6.11,255,nan,2692991
+Talen Horton-Tucker,Los Angeles Lakers,SG,20,"6' 4""",6.4,234,Iowa State,9500000
+Dwight Howard,Los Angeles Lakers,C,35,"6' 10""",6.1,265,nan,1669178
+LeBron James,Los Angeles Lakers,SF,36,"6' 9""",6.9,250,nan,41180544
+Wesley Matthews,Los Angeles Lakers,SG,34,"6' 4""",6.4,220,Marquette,nan
+Malik Monk,Los Angeles Lakers,SG,23,"6' 3""",6.3,200,Kentucky,1669178
+Kendrick Nunn,Los Angeles Lakers,G,26,"6' 2""",6.2,190,Illinois,5000000
+Rajon Rondo,Los Angeles Lakers,PG,35,"6' 1""",6.1,180,Kentucky,1669178
+Russell Westbrook,Los Angeles Lakers,PG,32,"6' 3""",6.3,200,UCLA,44211146
+Deandre Ayton,Phoenix Suns,C,23,"6' 11""",6.11,250,Arizona,12632950
+Devin Booker,Phoenix Suns,SG,24,"6' 5""",6.5,206,Kentucky,31650600
+Mikal Bridges,Phoenix Suns,SF,25,"6' 6""",6.6,209,Villanova,5557725
+Jae Crowder,Phoenix Suns,PF,31,"6' 6""",6.6,235,Marquette,9720900
+Langston Galloway,Phoenix Suns,SG,29,"6' 1""",6.1,200,Saint Joseph's,nan
+Chandler Hutchison,Phoenix Suns,SF,25,"6' 6""",6.6,210,Boise State,4019459
+Cameron Johnson,Phoenix Suns,SF,25,"6' 8""",6.8,210,North Carolina,4437000
+Frank Kaminsky,Phoenix Suns,PF,28,"7' 0""",7.0,240,Wisconsin,1669178
+JaVale McGee,Phoenix Suns,C,33,"7' 0""",7.0,270,Nevada,5000000
+E'Twaun Moore,Phoenix Suns,SG,32,"6' 3""",6.3,191,Purdue,nan
+Abdel Nader,Phoenix Suns,SF,27,"6' 5""",6.5,225,Iowa State,2000000
+Chris Paul,Phoenix Suns,PG,36,"6' 0""",6.0,175,Wake Forest,30000000
+Cameron Payne,Phoenix Suns,PG,27,"6' 1""",6.1,183,Murray State,6500000
+Elfrid Payton,Phoenix Suns,PG,27,"6' 3""",6.3,195,Louisiana-Lafayette,1669178
+Dario Saric,Phoenix Suns,PF,27,"6' 10""",6.1,225,nan,8510000
+Landry Shamet,Phoenix Suns,SG,24,"6' 4""",6.4,190,Wichita State,3768342
+Jalen Smith,Phoenix Suns,PF,21,"6' 10""",6.1,215,Maryland,4458000
+Marvin Bagley III,Sacremento Kings,PF,22,"6' 11""",6.11,235,Duke,11312114
+Harrison Barnes,Sacremento Kings,SF,29,"6' 8""",6.8,225,North Carolina,20284091
+Terence Davis,Sacremento Kings,SG,24,"6' 4""",6.4,201,Ole Miss,4000000
+De'Aaron Fox,Sacremento Kings,PG,23,"6' 3""",6.3,185,Kentucky,28103550
+Tyrese Haliburton,Sacremento Kings,PG,21,"6' 5""",6.5,185,Iowa State,4023600
+Maurice Harkless,Sacremento Kings,SF,28,"6' 7""",6.7,220,St. John's,4347600
+Buddy Hield,Sacremento Kings,SG,28,"6' 4""",6.4,220,Oklahoma,22768890
+Richaun Holmes,Sacremento Kings,C,27,"6' 10""",6.1,235,Bowling Green,10384500
+Justin James,Sacremento Kings,SG,24,"6' 7""",6.7,190,Wyoming,1782621
+Damian Jones,Sacremento Kings,C,26,"6' 11""",6.11,245,Vanderbilt,1977011
+Louis King,Sacremento Kings,PF,22,"6' 7""",6.7,205,Oregon,nan
+Alex Len,Sacremento Kings,C,28,"7' 0""",7.0,250,Maryland,3732000
+Chimezie Metu,Sacremento Kings,PF,24,"6' 9""",6.9,225,USC,1762796
+Davion Mitchell,Sacremento Kings,PG,23,"6' 2""",6.2,205,Baylor,4603320
+Neemias Queta,Sacremento Kings,C,22,"7' 0""",7.0,245,Utah State,nan
+Jahmi'us Ramsey,Sacremento Kings,SG,20,"6' 3""",6.3,190,Texas Tech,1517981
+Tristan Thompson,Sacremento Kings,C,30,"6' 9""",6.9,254,Texas,9720900
+Robert Woodard II,Sacremento Kings,SF,21,"6' 6""",6.6,235,Mississippi State,1517981
+Moses Brown,Dallas Mavericks,C,21,"7' 2""",7.2,245,UCLA,1701593
+Sterling Brown,Dallas Mavericks,SF,26,"6' 5""",6.5,219,SMU,3000000
+Jalen Brunson,Dallas Mavericks,PG,25,"6' 1""",6.1,190,Villanova,1802057
+Reggie Bullock,Dallas Mavericks,SF,30,"6' 6""",6.6,205,North Carolina,9536000
+Trey Burke,Dallas Mavericks,PG,28,"6' 0""",6.0,185,Michigan,3150000
+Willie Cauley-Stein,Dallas Mavericks,C,28,"7' 0""",7.0,240,Kentucky,4100000
+Luka Doncic,Dallas Mavericks,PG,22,"6' 7""",6.7,230,nan,10174391
+Dorian Finney-Smith,Dallas Mavericks,PF,28,"6' 7""",6.7,220,Florida,4000000
+Josh Green,Dallas Mavericks,SG,20,"6' 5""",6.5,200,Arizona,2957520
+Tim Hardaway Jr.,Dallas Mavericks,SF,29,"6' 5""",6.5,205,Michigan,21308816
+Maxi Kleber,Dallas Mavericks,PF,29,"6' 10""",6.1,240,nan,8975000
+Boban Marjanovic,Dallas Mavericks,C,33,"7' 4""",7.4,290,nan,3500000
+JaQuori McLaughlin,Dallas Mavericks,G,23,"6' 4""",6.4,190,UC Santa Barbara,nan
+Eugene Omoruyi,Dallas Mavericks,F,24,"6' 6""",6.6,235,Oregon,nan
+Kristaps Porzingis,Dallas Mavericks,C,26,"7' 3""",7.3,240,nan,31650600
+Dwight Powell,Dallas Mavericks,C,30,"6' 10""",6.1,240,Stanford,11080125
+JJ Redick,Dallas Mavericks,SG,37,"6' 3""",6.3,200,Duke,nan
+Tyrell Terry,Dallas Mavericks,PG,20,"6' 2""",6.2,160,Stanford,1517981
+D.J. Augustin,Houston Rockets,PG,33,"5' 11""",5.11,183,Texas,7000000
+Avery Bradley,Houston Rockets,PG,30,"6' 3""",6.3,180,Texas,nan
+Armoni Brooks,Houston Rockets,SG,23,"6' 3""",6.3,195,Houston,nan
+Josh Christopher,Houston Rockets,SG,19,"6' 5""",6.5,215,Arizona State,2259240
+Dante Exum,Houston Rockets,PG,26,"6' 5""",6.5,214,nan,nan
+Usman Garuba,Houston Rockets,PF,19,"6' 8""",6.8,230,nan,2353320
+Eric Gordon,Houston Rockets,SG,32,"6' 3""",6.3,215,Indiana,18218818
+Jalen Green,Houston Rockets,SG,19,"6' 6""",6.6,178,nan,8992200
+Danuel House Jr.,Houston Rockets,SF,28,"6' 6""",6.6,220,Texas A&M,3894000
+Matthew Hurt,Houston Rockets,F,21,"6' 9""",6.9,235,Duke,nan
+Anthony Lamb,Houston Rockets,SF,23,"6' 6""",6.6,227,Vermont,nan
+Kenyon Martin Jr.,Houston Rockets,SF,20,"6' 6""",6.6,215,nan,1517981
+David Nwaba,Houston Rockets,SF,28,"6' 5""",6.5,219,Cal Poly,4650000
+Kevin Porter Jr.,Houston Rockets,SG,21,"6' 4""",6.4,203,USC,1782621
+Alperen Sengun,Houston Rockets,C,19,"6' 9""",6.9,235,nan,3214680
+Jae'Sean Tate,Houston Rockets,SF,25,"6' 4""",6.4,230,Ohio State,1517981
+Daniel Theis,Houston Rockets,C,29,"6' 8""",6.8,245,nan,8280351
+Khyri Thomas,Houston Rockets,SG,25,"6' 3""",6.3,210,Creighton,1762796
+John Wall,Houston Rockets,PG,31,"6' 3""",6.3,210,Kentucky,44310840
+D.J. Wilson,Houston Rockets,PF,25,"6' 10""",6.1,231,Michigan,nan
+Christian Wood,Houston Rockets,C,25,"6' 10""",6.1,214,UNLV,13666667
+Steven Adams,Memphis Grizzlies,C,28,"6' 11""",6.11,265,Pittsburgh,17073171
+Santi Aldama,Memphis Grizzlies,PF,20,"6' 11""",6.11,215,Loyola (MD),1994520
+Kyle Anderson,Memphis Grizzlies,SF,27,"6' 9""",6.9,230,UCLA,9937150
+Desmond Bane,Memphis Grizzlies,SG,23,"6' 5""",6.5,215,TCU,2033160
+Dillon Brooks,Memphis Grizzlies,SF,25,"6' 7""",6.7,225,Oregon,12200000
+Brandon Clarke,Memphis Grizzlies,PF,24,"6' 8""",6.8,215,Gonzaga,2726880
+Jarrett Culver,Memphis Grizzlies,G,22,"6' 6""",6.6,195,Texas Tech,6395160
+Tim Frazier,Memphis Grizzlies,PG,30,"6' 0""",6.0,170,Penn State,nan
+Juancho Hernangomez,Memphis Grizzlies,F,25,"6' 9""",6.9,214,nan,6907815
+Jaren Jackson Jr.,Memphis Grizzlies,PF,21,"6' 11""",6.11,242,Michigan State,9180560
+Tyus Jones,Memphis Grizzlies,PG,25,"6' 0""",6.0,196,Duke,8376286
+John Konchar,Memphis Grizzlies,SG,25,"6' 5""",6.5,210,nan,2200000
+Sean McDermott,Memphis Grizzlies,SG,24,"6' 6""",6.6,195,Butler,nan
+De'Anthony Melton,Memphis Grizzlies,SG,23,"6' 2""",6.2,200,USC,8805976
+Sam Merrill,Memphis Grizzlies,SG,25,"6' 4""",6.4,205,Utah State,1517981
+Ja Morant,Memphis Grizzlies,PG,22,"6' 3""",6.3,174,Murray State,9603360
+Daniel Oturu,Memphis Grizzlies,C,21,"6' 8""",6.8,240,Minnesota,1517981
+Yves Pons,Memphis Grizzlies,G,22,"6' 6""",6.6,215,Tennessee,nan
+Jontay Porter,Memphis Grizzlies,PF,21,"6' 11""",6.11,240,Missouri,1950000
+Killian Tillie,Memphis Grizzlies,C,23,"6' 9""",6.9,220,Gonzaga,nan
+Xavier Tillman,Memphis Grizzlies,C,22,"6' 8""",6.8,245,Michigan State,1517981
+Ziaire Williams,Memphis Grizzlies,SG,19,"6' 8""",6.8,185,Stanford,4373040
+Nickeil Alexander-Walker,New Orleans Pelicans,SG,23,"6' 6""",6.6,205,Virginia Tech,3261480
+Wenyen Gabriel,New Orleans Pelicans,PF,24,"6' 9""",6.9,205,Kentucky,1762796
+Devonte' Graham,New Orleans Pelicans,G,26,"6' 1""",6.1,195,Kansas,11000000
+Josh Hart,New Orleans Pelicans,SG,26,"6' 5""",6.5,215,Villanova,12000000
+Jaxson Hayes,New Orleans Pelicans,C,21,"6' 11""",6.11,220,Texas,5348280
+Willy Hernangomez,New Orleans Pelicans,C,27,"6' 11""",6.11,250,nan,2327220
+Brandon Ingram,New Orleans Pelicans,SF,24,"6' 8""",6.8,190,Duke,29467800
+Herbert Jones,New Orleans Pelicans,SF,22,"6' 8""",6.8,210,Alabama,1700000
+Kira Lewis Jr.,New Orleans Pelicans,PG,20,"6' 1""",6.1,170,Alabama,3822240
+Didi Louzada,New Orleans Pelicans,SF,22,"6' 5""",6.5,185,nan,1786878
+Naji Marshall,New Orleans Pelicans,SF,23,"6' 7""",6.7,220,Xavier,1517981
+Trey Murphy III,New Orleans Pelicans,SG,21,"6' 9""",6.9,206,Virginia,3053760
+James Nunnally,New Orleans Pelicans,SF,31,"6' 7""",6.7,205,UC Santa Barbara,nan
+Tomas Satoransky,New Orleans Pelicans,SG,29,"6' 7""",6.7,210,nan,10000000
+Garrett Temple,New Orleans Pelicans,SF,35,"6' 5""",6.5,195,LSU,4910000
+Jonas Valanciunas,New Orleans Pelicans,C,29,"6' 11""",6.11,265,nan,14000000
+Zion Williamson,New Orleans Pelicans,PF,21,"6' 7""",6.7,284,Duke,10733400
+Al-Farouq Aminu,San Antonio Spurs,PF,30,"6' 8""",6.8,220,Wake Forest,10183800
+Keita Bates-Diop,San Antonio Spurs,SF,25,"6' 8""",6.8,229,Ohio State,nan
+Zach Collins,San Antonio Spurs,PF,23,"6' 11""",6.11,250,Gonzaga,7000000
+Drew Eubanks,San Antonio Spurs,PF,24,"6' 9""",6.9,245,Oregon State,1762796
+Bryn Forbes,San Antonio Spurs,SG,28,"6' 2""",6.2,205,Cleveland State,4500000
+DaQuan Jeffries,San Antonio Spurs,SG,24,"6' 5""",6.5,225,Western Texas Coll. (J.C.),1701593
+Keldon Johnson,San Antonio Spurs,SF,21,"6' 5""",6.5,220,Kentucky,2145720
+Tre Jones,San Antonio Spurs,PG,21,"6' 1""",6.1,185,Duke,1517981
+Jock Landale,San Antonio Spurs,C,25,"6' 11""",6.11,255,Saint Mary's,925258
+Doug McDermott,San Antonio Spurs,SF,29,"6' 7""",6.7,225,Creighton,13750000
+Dejounte Murray,San Antonio Spurs,PG,24,"6' 4""",6.4,180,Washington,15428880
+Jakob Poeltl,San Antonio Spurs,C,25,"7' 1""",7.1,245,Utah,8750000
+Joshua Primo,San Antonio Spurs,SG,18,"6' 6""",6.6,190,Alabama,3946800
+Luka Samanic,San Antonio Spurs,PF,21,"6' 10""",6.1,227,nan,2959080
+Devin Vassell,San Antonio Spurs,SG,21,"6' 5""",6.5,200,Florida State,4235160
+Lonnie Walker IV,San Antonio Spurs,SG,22,"6' 4""",6.4,204,Miami (FL),4447896
+Derrick White,San Antonio Spurs,PG,27,"6' 4""",6.4,190,Colorado,15178571
+Joe Wieskamp,San Antonio Spurs,SF,22,"6' 6""",6.6,210,Iowa,nan
+Thaddeus Young,San Antonio Spurs,PF,33,"6' 8""",6.8,235,Georgia Tech,14190000
+Will Barton,Denver Nuggets,SF,30,"6' 6""",6.6,181,Memphis,15625000
+Bol Bol,Denver Nuggets,C,21,"7' 2""",7.2,220,Oregon,2161152
+Facundo Campazzo,Denver Nuggets,PG,30,"5' 10""",5.1,195,nan,3200000
+Vlatko Cancar,Denver Nuggets,SF,24,"6' 8""",6.8,236,nan,1782621
+PJ Dozier,Denver Nuggets,SG,24,"6' 6""",6.6,205,South Carolina,1910860
+Aaron Gordon,Denver Nuggets,PF,25,"6' 8""",6.8,235,Arizona,16409091
+JaMychal Green,Denver Nuggets,PF,31,"6' 8""",6.8,227,Alabama,8200000
+Jeff Green,Denver Nuggets,PF,35,"6' 8""",6.8,235,Georgetown,4500000
+Shaquille Harrison,Denver Nuggets,SG,27,"6' 7""",6.7,190,Tulsa,nan
+Markus Howard,Denver Nuggets,PG,22,"5' 10""",5.1,175,Marquette,nan
+Nah'Shon Hyland,Denver Nuggets,PG,20,"6' 3""",6.3,165,Virginia Commonwealth,2096880
+Nikola Jokic,Denver Nuggets,C,26,"6' 11""",6.11,284,nan,31579390
+Monte Morris,Denver Nuggets,PG,26,"6' 2""",6.2,183,Iowa State,8449074
+Jamal Murray,Denver Nuggets,PG,24,"6' 3""",6.3,215,Kentucky,29467800
+Zeke Nnaji,Denver Nuggets,PF,20,"6' 9""",6.9,240,Arizona,2498760
+Michael Porter Jr.,Denver Nuggets,SF,23,"6' 10""",6.1,218,Missouri,5258735
+Austin Rivers,Denver Nuggets,SG,29,"6' 4""",6.4,200,Duke,1669178
+Malik Beasley,Minnesota Timberwolves,SG,24,"6' 4""",6.4,187,Florida State,14491964
+Patrick Beverley,Minnesota Timberwolves,PG,33,"6' 1""",6.1,180,Arkansas,14320988
+Ed Davis,Minnesota Timberwolves,C,32,"6' 9""",6.9,218,North Carolina,nan
+Anthony Edwards,Minnesota Timberwolves,SF,20,"6' 4""",6.4,225,Georgia,10245480
+Nathan Knight,Minnesota Timberwolves,F,23,"6' 10""",6.1,253,William & Mary,nan
+Jake Layman,Minnesota Timberwolves,SF,27,"6' 8""",6.8,209,Maryland,3940185
+Jaden McDaniels,Minnesota Timberwolves,PF,20,"6' 9""",6.9,185,Washington,2063280
+Jordan McLaughlin,Minnesota Timberwolves,PG,25,"5' 11""",5.11,185,USC,nan
+Jaylen Nowell,Minnesota Timberwolves,SG,22,"6' 4""",6.4,201,Washington,1782621
+Josh Okogie,Minnesota Timberwolves,SF,23,"6' 4""",6.4,213,Georgia Tech,4087904
+Taurean Prince,Minnesota Timberwolves,PF,27,"6' 7""",6.7,218,Baylor,13000000
+Naz Reid,Minnesota Timberwolves,C,22,"6' 9""",6.9,264,LSU,1782621
+D'Angelo Russell,Minnesota Timberwolves,PG,25,"6' 4""",6.4,193,Ohio State,30013500
+Karl-Anthony Towns,Minnesota Timberwolves,C,25,"6' 11""",6.11,248,Kentucky,31650600
+Jarred Vanderbilt,Minnesota Timberwolves,PF,22,"6' 9""",6.9,214,Kentucky,nan
+Darius Bazley,Oklahoma City Thunder,PF,21,"6' 8""",6.8,208,nan,2513040
+Charlie Brown Jr.,Oklahoma City Thunder,F,24,"6' 6""",6.6,199,Saint Joseph's,1701593
+Charlie Brown Jr.,Oklahoma City Thunder,SF,24,"6' 6""",6.6,199,Saint Joseph's,nan
+Gabriel Deck,Oklahoma City Thunder,SF,26,"6' 6""",6.6,231,nan,3676852
+Luguentz Dort,Oklahoma City Thunder,SF,22,"6' 3""",6.3,215,Arizona State,1782621
+Derrick Favors,Oklahoma City Thunder,C,30,"6' 9""",6.9,265,Georgia Tech,9720900
+Josh Giddey,Oklahoma City Thunder,SG,18,"6' 8""",6.8,205,nan,5988000
+Shai Gilgeous-Alexander,Oklahoma City Thunder,SG,23,"6' 6""",6.6,180,Kentucky,5495532
+Josh Hall,Oklahoma City Thunder,SF,20,"6' 9""",6.9,190,Moravian,nan
+Jaylen Hoard,Oklahoma City Thunder,SF,22,"6' 8""",6.8,216,Wake Forest,nan
+Ty Jerome,Oklahoma City Thunder,SG,24,"6' 5""",6.5,195,Virginia,2412840
+Vit Krejci,Oklahoma City Thunder,F,21,"6' 8""",6.8,195,nan,nan
+Theo Maledon,Oklahoma City Thunder,PG,20,"6' 4""",6.4,175,nan,2000000
+Tre Mann,Oklahoma City Thunder,PG,20,"6' 3""",6.3,178,Florida,2901240
+Mike Muscala,Oklahoma City Thunder,C,30,"6' 10""",6.1,240,Bucknell,3365385
+Svi Mykhailiuk,Oklahoma City Thunder,SG,24,"6' 7""",6.7,205,Kansas,nan
+Aleksej Pokusevski,Oklahoma City Thunder,PF,19,"7' 0""",7.0,190,nan,3113160
+Jeremiah Robinson-Earl,Oklahoma City Thunder,PF,20,"6' 8""",6.8,242,Villanova,2000000
+Isaiah Roby,Oklahoma City Thunder,C,23,"6' 8""",6.8,230,Nebraska,1782621
+Aaron Wiggins,Oklahoma City Thunder,SG,22,"6' 5""",6.5,190,Maryland,nan
+Kenrich Williams,Oklahoma City Thunder,SF,26,"6' 6""",6.6,210,TCU,2000000
+Keljin Blevins,Portland Trail Blazers,SF,25,"6' 4""",6.4,200,Montana State,nan
+Greg Brown,Portland Trail Blazers,PF,20,"6' 9""",6.9,205,Texas,925258
+Robert Covington,Portland Trail Blazers,PF,30,"6' 7""",6.7,209,Tennessee State,12975471
+CJ Elleby,Portland Trail Blazers,SG,21,"6' 6""",6.6,200,Washington State,1517981
+Harry Giles III,Portland Trail Blazers,PF,23,"6' 11""",6.11,240,Duke,nan
+Rondae Hollis-Jefferson,Portland Trail Blazers,SF,26,"6' 6""",6.6,217,Arizona,nan
+T.J. Leaf,Portland Trail Blazers,PF,24,"6' 10""",6.1,222,UCLA,nan
+Damian Lillard,Portland Trail Blazers,PG,31,"6' 2""",6.2,195,Weber State,39344900
+Nassir Little,Portland Trail Blazers,SF,21,"6' 5""",6.5,220,North Carolina,2316240
+CJ McCollum,Portland Trail Blazers,SG,29,"6' 3""",6.3,190,Lehigh,30864198
+Ben McLemore,Portland Trail Blazers,SG,28,"6' 3""",6.3,195,Kansas,1669178
+Larry Nance Jr.,Portland Trail Blazers,PF,28,"6' 7""",6.7,245,Wyoming,10690909
+Jusuf Nurkic,Portland Trail Blazers,C,27,"6' 11""",6.11,290,nan,12000000
+Norman Powell,Portland Trail Blazers,SF,28,"6' 3""",6.3,215,UCLA,15517241
+Anfernee Simons,Portland Trail Blazers,SG,22,"6' 3""",6.3,181,nan,3938818
+Tony Snell,Portland Trail Blazers,SF,29,"6' 6""",6.6,213,New Mexico,1669178
+Trendon Watford,Portland Trail Blazers,F,20,"6' 9""",6.9,240,LSU,nan
+Cody Zeller,Portland Trail Blazers,C,28,"6' 11""",6.11,240,Indiana,1669178
+Udoka Azubuike,Utah Jazz,C,21,"6' 10""",6.1,280,Kansas,2075880
+Bojan Bogdanovic,Utah Jazz,SF,32,"6' 7""",6.7,226,nan,18700000
+Jarrell Brantley,Utah Jazz,PF,25,"6' 5""",6.5,250,Charleston,1669178
+Jared Butler,Utah Jazz,SG,21,"6' 3""",6.3,195,Baylor,925258
+Jordan Clarkson,Utah Jazz,PG,29,"6' 4""",6.4,194,Missouri,12420000
+Mike Conley,Utah Jazz,PG,33,"6' 1""",6.1,175,Ohio State,21000000
+Trent Forrest,Utah Jazz,SG,23,"6' 4""",6.4,210,Florida State,nan
+Rudy Gay,Utah Jazz,SF,35,"6' 8""",6.8,250,Connecticut,5890000
+Rudy Gobert,Utah Jazz,C,29,"7' 1""",7.1,258,nan,35344828
+Elijah Hughes,Utah Jazz,SF,23,"6' 5""",6.5,215,Syracuse,1517981
+Ersan Ilyasova,Utah Jazz,PF,34,"6' 9""",6.9,235,nan,nan
+Joe Ingles,Utah Jazz,SG,33,"6' 8""",6.8,220,nan,13036364
+Donovan Mitchell,Utah Jazz,SG,25,"6' 1""",6.1,215,Louisville,28103500
+Juwan Morgan,Utah Jazz,SF,24,"6' 7""",6.7,232,Indiana,nan
+Royce O'Neale,Utah Jazz,PF,28,"6' 4""",6.4,226,Baylor,8800000
+Olumiye Oni,Utah Jazz,SG,24,"6' 5""",6.5,206,Yale,1782621
+Eric Paschall,Utah Jazz,F,24,"6' 6""",6.6,255,Villanova,1782621
+Hassan Whiteside,Utah Jazz,C,32,"7' 0""",7.0,265,Marshall,1669178

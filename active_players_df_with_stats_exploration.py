@@ -43,14 +43,36 @@ sns.scatterplot(x = 'Age' , y = 'FG3A/GP' , data = df)
 #%%
 from nba_api.stats.endpoints import commonteamroster
 from nba_api.stats.static import players
+from nba_api.stats.static import teams
 
-active_ids = df['id'].tolist()
 
-
-def get_team(player_name):
-    nba_players = players.get_players()
-    player_id = [player for player in nba_players if player['full_name'].lower() == player_name][0]['id']
+# def get_team(player_name):
+#     nba_players = players.get_players()
+#     player_id = [player for player in nba_players if player['full_name'].lower() == player_name][0]['id']
     
-    team = commonteamroster.CommonTeamRoster(team_id = '1610612740').get_data_frames()[0]
-    return team['PLAYER'].tolist()
+#     team = commonteamroster.CommonTeamRoster(team_id = '1610612740').get_data_frames()[0]
+#     return team['PLAYER'].tolist()
+
+df = pd.read_csv('active_players_2.csv')
+df['Name'] = df['Name'].str.lower()
+df.to_csv('active_players_teams_lower.csv')
+
+
+
+def find_teammates(player_name):
+    lower_player_name = player_name.lower()
+    df = pd.read_csv('active_players_teams_lower.csv')
+    player_team = df[df['Name'] == lower_player_name]['Team'].values[0]
+    teammates = df[df['Team'] == player_team]['Name'].tolist()
+    return [teammate.title() for teammate in teammates]
+
+
+
+
+
+
+
+
+
+
 

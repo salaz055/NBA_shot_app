@@ -19,7 +19,7 @@ from matplotlib.figure import Figure
 import matplotlib.pyplot as plt
 
 from PIL import ImageTk, Image
-from other_shot_data import shot_selection_by_period , career_data_summary , get_distance_df , find_similar_players
+from other_shot_data import shot_selection_by_period , career_data_summary , get_distance_df , find_similar_players , find_teammates
 from dataset_wrangling import create_stacked_shot_selection_bar
 
 from Missed_made_kde_charts import made_shot_kde , missed_shot_kde
@@ -317,6 +317,36 @@ class App(customtkinter.CTk):
         
         self.similar_player_label.grid(row=0, column=4, pady=10, padx=10)
         
+        self.teammates = [player.title() for player in find_teammates(self.entry.get().lower())]
+        self.teammate = customtkinter.StringVar(value= self.teammates[0])
+        
+        self.teammate_select = customtkinter.CTkComboBox(master=self.frame_right_bot,
+                                     values= self.teammates,
+                                     variable= self.teammate)
+        self.teammate_select.grid(row = 1, column=1, pady=10, padx=10, columnspan = 1)
+        
+        self.teammate_year = customtkinter.StringVar(value="2016-17")
+        self.teammate_year_select = customtkinter.CTkComboBox(master=self.frame_right_bot,
+                                     values=['2016-17' , '2017-18', '2018-19' ,'2019-20' ,'2020-21' ,'2021-22'],
+                                     variable=self.teammate_year)
+        self.teammate_year_select.grid(row = 1, column= 2, pady=10, padx=10, columnspan = 1)
+        
+        self.teammate_button = customtkinter.CTkButton(master = self.frame_right_bot,
+                                                           width = 120,
+                                                           height = 32,
+                                                           border_width=0,
+                                                           corner_radius=8,
+                                                           text = "View Shot Chart",
+                                                           command = self.teammate_button_click)
+        
+        
+        self.teammate_button.grid(row = 1 , column = 3 , pady=10, padx=10, columnspan = 1)
+        
+        self.teammate_label = customtkinter.CTkLabel(master=self.frame_right_bot,
+                                              text="Teammate Comparison",
+                                              text_font=("Roboto Medium", -16))
+        
+        self.teammate_label.grid(row=1, column=4, pady=10, padx=10)
     
     def made_shots_button_4_click(self):
         self.made_window = customtkinter.CTkToplevel(self.button_4_window)
@@ -369,6 +399,28 @@ class App(customtkinter.CTk):
         canvas.get_tk_widget().pack()
         
         get_distance_df(self.similar_player.get().lower() , self.similar_player_year.get() , frame = window)
+    
+    def teammate_button_click(self):
+        window = customtkinter.CTkToplevel(self)
+        window.geometry("600x650")
+        
+        f = Figure(figsize = (5,5) , dpi = 100)
+        ax = f.add_subplot(111)
+        
+        shot_chart_use(self.teammate.get().lower(), self.teammate_year.get() , ax)
+        
+        
+        canvas = FigureCanvasTkAgg(f , master = window)
+        canvas.draw()
+        canvas.get_tk_widget().pack(side = tk.TOP , fill = tk.BOTH , expand = True)
+        window.title(f'{self.teammate.get().title()} Shot Chart for {self.teammate_year.get()} Season')
+        
+        toolbar = NavigationToolbar2Tk(canvas, window)
+        
+        toolbar.update()
+        canvas.get_tk_widget().pack()
+        
+        get_distance_df(self.teammate.get().lower() , self.teammate_year.get() , frame = window)
         
 
 if __name__ == "__main__":

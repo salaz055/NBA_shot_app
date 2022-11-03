@@ -126,6 +126,13 @@ def find_similar_players(player_name):
     
     return similar_players
     
+def find_teammates(player_name):
+    lower_player_name = player_name.lower()
+    df = pd.read_csv('active_players_teams_lower.csv')
+    player_team = df[df['Name'] == lower_player_name]['Team'].values[0]
+    teammates = df[df['Team'] == player_team]['Name'].tolist()
+    return [teammate.title() for teammate in teammates]
+
 
 if __name__ == "__main__":
     sims = find_similar_players('draymond green')
