@@ -12,7 +12,7 @@ import seaborn as sns
 import nba_api as nba
 from nba_api.stats.endpoints import playercareerstats
 from nba_api.stats.endpoints import teamplayerdashboard
-df = pd.read_csv('active_players_df_with_stats.csv')
+df = pd.read_csv(r'dataset_creation\active_players_df_with_stats.csv')
 df = df.dropna(axis = 0)
 df = df.drop('Unnamed: 0' , axis = 1)
 print(df.shape)

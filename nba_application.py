@@ -9,7 +9,7 @@ from tkinter import *
 import os
 import tkinter as tk
 import customtkinter
-from basketballshotchartvisualization import shot_chart_use , draw_court ,  create_heatmap , create_jointgrid , create_hex_map , create_shot_chart, create_kde , shot_chart
+from scripts.basketballshotchartvisualization import get_player_shotchartdetail , shot_chart_use , draw_court ,  create_heatmap , create_jointgrid , create_hex_map , create_shot_chart, create_kde , shot_chart , shot_selection_by_period , career_data_summary , get_distance_df , find_similar_players , find_teammates, create_stacked_shot_selection_bar , made_shot_kde , missed_shot_kde
 import nba_api
 from nba_api.stats.static import players
 
@@ -18,12 +18,13 @@ from matplotlib.figure import Figure
 import matplotlib.pyplot as plt
 
 from PIL import ImageTk, Image
-from other_shot_data import shot_selection_by_period , career_data_summary , get_distance_df , find_similar_players , find_teammates
-from dataset_wrangling import create_stacked_shot_selection_bar
+#from other_shot_data import shot_selection_by_period , career_data_summary , get_distance_df , find_similar_players , find_teammates
+#from dataset_wrangling import create_stacked_shot_selection_bar
 
-from Missed_made_kde_charts import made_shot_kde , missed_shot_kde
+#from Missed_made_kde_charts import made_shot_kde , missed_shot_kde
 
-
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 os.chdir(r'C:\Users\salaz\OneDrive\Desktop\Projects\NBA')
 
@@ -215,7 +216,7 @@ class App(customtkinter.CTk):
             
         create_jointgrid(self.entry.get().lower(), self.year.get())
         
-        im = Image.open('joint_grid.png')
+        im = Image.open(f'images\joint_grid.png')
         self.frame_top_button_4 = customtkinter.CTkFrame(master=self.button_4_window,
                                                  height=0.8,
                                                  corner_radius=20)
@@ -353,7 +354,7 @@ class App(customtkinter.CTk):
         
         made_shot_kde(player_name = self.entry.get().lower(), season_id = self.year.get())
         
-        im = Image.open('made_joint_grid.png')
+        im = Image.open(f'images\made_joint_grid.png')
         ph = ImageTk.PhotoImage(im , master=self.made_window)
         label = Label(self.made_window, image=ph)
         
@@ -368,7 +369,7 @@ class App(customtkinter.CTk):
         
         missed_shot_kde(player_name = self.entry.get().lower(), season_id = self.year.get())
         
-        im = Image.open('missed_joint_grid.png')
+        im = Image.open(f'images\missed_joint_grid.png')
         ph = ImageTk.PhotoImage(im , master=self.missed_window)
         label = Label(self.missed_window, image=ph)
         
