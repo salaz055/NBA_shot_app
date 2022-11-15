@@ -51,7 +51,6 @@ def get_player_shotchartdetail(player_name , season_id):
     
     # team id during the season
     team_ids = list(career_df[career_df['SEASON_ID'] == season_id]['TEAM_ID'])
-    print(team_ids)
 
     
     # shotchartdetail endpoints
@@ -481,11 +480,7 @@ def get_distance_df(player_name , season_id , frame):
     player_df.reset_index(inplace = True)
     player_df.columns = ['Shot Range' , 'Number of Shots' , 'Percentage of Total Shots']
     player_df.sort_values('Percentage of Total Shots' , ascending = True , inplace = True)
-    print(player_df)
-    
-    # root = tk.Tk()
-    # root.title('Treeview demo')
-    # root.geometry('620x200')
+
     
     cols = list(player_df.columns)
     

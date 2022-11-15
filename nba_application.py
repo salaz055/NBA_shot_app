@@ -18,10 +18,6 @@ from matplotlib.figure import Figure
 import matplotlib.pyplot as plt
 
 from PIL import ImageTk, Image
-#from other_shot_data import shot_selection_by_period , career_data_summary , get_distance_df , find_similar_players , find_teammates
-#from dataset_wrangling import create_stacked_shot_selection_bar
-
-#from Missed_made_kde_charts import made_shot_kde , missed_shot_kde
 
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
