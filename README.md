@@ -1,5 +1,6 @@
 "# nba_final" 
 
 
-https://user-images.githubusercontent.com/101416331/202010788-71eaf200-a68a-422d-92cc-08e4b93cb28f.mp4
 
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/101416331/202028226-93dadf98-6062-49e6-acad-90ccbcc30ea1.gif)
