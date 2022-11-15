@@ -8,3 +8,10 @@
 
 
 ![ezgif com-gif-maker(5)](https://user-images.githubusercontent.com/101416331/202032771-1dddfc2b-f560-4e28-a2e0-6032a7ea0641.gif)
+
+
+
+### Reference:
+nbashots: https://github.com/savvastj/nbashots 
+nba_api: https://github.com/swar/nba_api
+CustomTkinter: https://github.com/TomSchimansky/CustomTkinter
