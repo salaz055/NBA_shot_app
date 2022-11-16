@@ -6,7 +6,7 @@ The application allows users to create:
 
 - Visualizations for any season from 2016-17 through the current season.
 - Heatmaps for FG%
-- Bar Charts for shot selection by quarter of the game and month.
+- Bar Charts for shot selection by **quarter of the game** and **month**.
 - Shot Charts/KDE plot for attempts , made shots, and missed shots
 - Shot Charts also show a table breaking down attempts by distance from the basket into the bins ['Less Than 8 ft.' , '8-16 ft.' , '16-24 ft.' , '24+ ft.']*
 - Career statistics tables
