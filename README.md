@@ -1,6 +1,6 @@
 # nba_application 
 
-nba_application is a tool used to visualize shot distribuitions for NBA players. The app uses nba_api to scrape data from [NBA.com](https://www.nba.com), nbashots to assist with visualizations, and CustomTkinter to create a UI.
+nba_application is a tool used to visualize shot distribuitions for NBA players. I used nba_api to scrape data from [NBA.com](https://www.nba.com), nbashots to assist with visualizations, and CustomTkinter to create a UI.
 
 The application allows users to create:
 
