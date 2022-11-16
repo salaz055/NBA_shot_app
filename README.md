@@ -4,8 +4,7 @@ nba_application is a tool used to visualize shot distribuitions for players. The
 
 - Visualizations for any season 2016-17 through the current season.
 - Heatmaps for FG%
-- Shot selection by quarter of the game
-- Shot selection by month
+- Bar Charts for shot selection by quarter of the game and month.
 - Shot Charts/KDE plot for attempts
 - Career statistics tables
 
