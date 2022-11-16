@@ -11,7 +11,7 @@
 
 
 
-### Reference:
+## Reference:
 - nbashots: https://github.com/savvastj/nbashots 
 - nba_api: https://github.com/swar/nba_api
 - CustomTkinter: https://github.com/TomSchimansky/CustomTkinter
