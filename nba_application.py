@@ -122,7 +122,7 @@ class App(customtkinter.CTk):
         
         self.year = customtkinter.StringVar(value="2016-17")
         self.year_select = customtkinter.CTkComboBox(master=self.frame_left,
-                                     values=['2016-17' , '2017-18', '2018-19' ,'2019-20' ,'2020-21' ,'2021-22'],
+                                     values=['2016-17' , '2017-18', '2018-19' ,'2019-20' ,'2020-21' ,'2021-22' , '2022-23'],
                                      variable=self.year)
         self.year_select.grid(row = 3, column=0, pady=10, padx=10, columnspan = 2)
         
@@ -291,7 +291,7 @@ class App(customtkinter.CTk):
         
         self.similar_player_year = customtkinter.StringVar(value="2016-17")
         self.similar_player_year_select = customtkinter.CTkComboBox(master=self.frame_right_bot,
-                                     values=['2016-17' , '2017-18', '2018-19' ,'2019-20' ,'2020-21' ,'2021-22'],
+                                     values=['2016-17' , '2017-18', '2018-19' ,'2019-20' ,'2020-21' ,'2021-22' , '2022-23'],
                                      variable=self.similar_player_year)
         self.similar_player_year_select.grid(row = 0, column= 2, pady=10, padx=10, columnspan = 1) 
         
@@ -323,7 +323,7 @@ class App(customtkinter.CTk):
         
         self.teammate_year = customtkinter.StringVar(value="2016-17")
         self.teammate_year_select = customtkinter.CTkComboBox(master=self.frame_right_bot,
-                                     values=['2016-17' , '2017-18', '2018-19' ,'2019-20' ,'2020-21' ,'2021-22'],
+                                     values=['2016-17' , '2017-18', '2018-19' ,'2019-20' ,'2020-21' ,'2021-22' , '2022-23'],
                                      variable=self.teammate_year)
         self.teammate_year_select.grid(row = 1, column= 2, pady=10, padx=10, columnspan = 1)
         
