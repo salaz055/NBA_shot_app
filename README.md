@@ -26,7 +26,8 @@ The career satistics button will prompt the app to show:
 
 
 
-## Reference:
+## Reference/Requirements:
 - nbashots: https://github.com/savvastj/nbashots 
 - nba_api: https://github.com/swar/nba_api
 - CustomTkinter: https://github.com/TomSchimansky/CustomTkinter
+- Other requirements are in the requirements.txt file
