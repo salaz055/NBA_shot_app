@@ -2,7 +2,7 @@
 
 nba_application is a tool used to visualize shot distribuitions for NBA players. I used nba_api to scrape data from [NBA.com](https://www.nba.com), nbashots to assist with visualizations, and CustomTkinter to create a UI.
 
-The application allows users to create:
+The interface allows users to create:
 
 - Visualizations for any season from 2016-17 through the current season.
 - Heatmaps for FG%
@@ -11,16 +11,16 @@ The application allows users to create:
 - Shot Charts also show a table breaking down attempts by distance from the basket into the bins ['Less Than 8 ft.' , '8-16 ft.' , '16-24 ft.' , '24+ ft.']*
 - Career statistics tables
 
-The tool also allows the user to find/compare similar players (found through KMeans) and quickly compare a player to their teammates.
+The tool also allows the user to find/compare similar players found through KMeans and quickly compare a player to their teammates.
 
 ![ezgif com-gif-maker(4)](https://user-images.githubusercontent.com/101416331/202031080-6759066d-6252-4519-bca5-931e64d41aae.gif)
 
 
 ## Career Statistics 
-The career satistics button will prompt the app to show:
+The career satistics button will prompt the tool to show:
 - The career statistics table for the player selected
-- The similar player comparison tool: This includes a drop down menu to choose from 10 of the most similar players, a season/year dropdown, and a button to quickly create a shot chart for the similar player.
-- The teammate comparison tool: This includes a drop down menu to choose from teammates for the player, a season/year dropdown, and a button to quickly create a shot chart for the teammate.
+- The similar player comparison tool: This includes a drop down menu to choose from 10 of the most similar players, a season/year dropdown, and a button to quickly create a shot chart for the similar player/season selected.
+- The teammate comparison tool: This includes a drop down menu to choose from teammates for the player, a season/year dropdown, and a button to quickly create a shot chart for the teammate/season selected.
 
 ### Similar Player Comparison Tool
 ![ezgif com-gif-maker(3)](https://user-images.githubusercontent.com/101416331/202030267-67d038a3-5025-4bca-9afe-260ee5de6f44.gif)
