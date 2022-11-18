@@ -22,7 +22,7 @@ from PIL import ImageTk, Image
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
-os.chdir(r'C:\Users\salaz\OneDrive\Desktop\Projects\NBA')
+# os.chdir(r'C:\Users\salaz\OneDrive\Desktop\Projects\NBA')
 
 customtkinter.set_appearance_mode("System")  # Modes: "System" (standard), "Dark", "Light"
 customtkinter.set_default_color_theme("blue")  # Themes: "blue" (standard), "green", "dark-blue"
