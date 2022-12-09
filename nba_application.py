@@ -131,7 +131,7 @@ class App(customtkinter.CTk):
                                                 height=32,
                                                 border_width=0,
                                                 corner_radius=8,
-                                                text="Show Career Statistics",
+                                                text="Show Career Statistics/Similar Players",
                                                 command = self.button6_click)
         self.button_6.grid(row = 9, column=0, pady=10, padx=10 , columnspan = 2)
 
@@ -179,7 +179,7 @@ class App(customtkinter.CTk):
         canvas = FigureCanvasTkAgg(f , master = window)
         canvas.draw()
         canvas.get_tk_widget().pack(side = tk.TOP , fill = tk.BOTH , expand = True)
-        window.title(f'{self.entry.get().title()} KDE')
+        window.title(f'{self.entry.get().title()} Shot Selection by Period {self.year.get()} Season')
         
     def button3_click(self):
         
@@ -196,7 +196,7 @@ class App(customtkinter.CTk):
         canvas = FigureCanvasTkAgg(f , master = window)
         canvas.draw()
         canvas.get_tk_widget().pack(side = tk.TOP , fill = tk.BOTH , expand = True)
-        window.title(f'{self.entry.get().title()} Shot Chart')
+        window.title(f'{self.entry.get().title()} Shot Chart {self.year.get()} Season')
         
         toolbar = NavigationToolbar2Tk(canvas,
                                    window)

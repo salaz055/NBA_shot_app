@@ -263,7 +263,7 @@ def create_heatmap(player_name , season_id , ax , f):
     l = list(zip(v,c))
     cmap= plt.cm.gist_heat_r
     
-    heat_map = nba.heatmap(final_player_df.LOC_X, final_player_df.LOC_Y,final_player_df.SHOT_MADE_FLAG , cmap = cmap, title = f"{player_name.title()} efficiency {season_id} Season" , ax = ax)
+    heat_map = nba.heatmap(final_player_df.LOC_X, final_player_df.LOC_Y,final_player_df.SHOT_MADE_FLAG , cmap = cmap, title = f"{player_name.title()} Efficiency {season_id} Season" , ax = ax)
     f.colorbar(heat_map)
 
 
@@ -435,7 +435,7 @@ def shot_selection_by_period(player_name , season_id , ax):
         df_grouped_by_period[col] = df_grouped_by_period[col].apply(np.int64)
        
     df_grouped_by_period.columns = col_names  
-    df_grouped_by_period.plot(kind='bar', stacked=True , ax = ax , title = f"{player_name.title()} Shot Selection by Period {season_id} Season")
+    df_grouped_by_period.plot(kind='bar', stacked=True , ax = ax , title = f"{player_name.title()} Shot Selection by Period for {season_id} Season")
 
     
 
