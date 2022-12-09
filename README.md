@@ -22,13 +22,11 @@ The career satistics button will prompt the tool to show:
 - The similar player comparison tool: This includes a drop down menu to choose from 10 of the most similar players, a season/year dropdown, and a button to quickly create a shot chart for the similar player/season selected.
 - The teammate comparison tool: This includes a drop down menu to choose from teammates for the player, a season/year dropdown, and a button to quickly create a shot chart for the teammate/season selected.
 
-### Similar Player Comparison Tool
+### Similar Player/Teamate Comparison Tools
 ![ezgif com-gif-maker(3)](https://user-images.githubusercontent.com/101416331/202030267-67d038a3-5025-4bca-9afe-260ee5de6f44.gif)
 
-### Teammate Comparison Tool
-![ezgif com-gif-maker(5)](https://user-images.githubusercontent.com/101416331/202032771-1dddfc2b-f560-4e28-a2e0-6032a7ea0641.gif)
-
-
+### Other Visualizations
+![More Visuals](images/MoreVisuals.png)
 
 ## Reference/Requirements:
 - nbashots: https://github.com/savvastj/nbashots 
