@@ -13,9 +13,6 @@ The interface allows users to create:
 
 The tool also allows the user to find/compare similar players found through KMeans and quickly compare a player to their teammates.
 
-![ezgif com-gif-maker(4)](https://user-images.githubusercontent.com/101416331/202031080-6759066d-6252-4519-bca5-931e64d41aae.gif)
-
-
 ## Career Statistics 
 The career satistics button will prompt the tool to show:
 - The career statistics table for the player selected
