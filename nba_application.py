@@ -9,7 +9,7 @@ from tkinter import *
 import os
 import tkinter as tk
 import customtkinter
-from scripts.basketballshotchartvisualization import get_player_shotchartdetail , shot_chart_use , draw_court ,  create_heatmap , create_jointgrid , create_hex_map , create_shot_chart, create_kde , shot_chart , shot_selection_by_period , career_data_summary , get_distance_df , find_similar_players , find_teammates, create_stacked_shot_selection_bar , made_shot_kde , missed_shot_kde
+from scripts.basketballshotchartvisualization import get_player_shotchartdetail , shot_chart_use , draw_court ,  create_heatmap , create_jointgrid , create_hex_map , create_shot_chart, create_kde , shot_chart , shot_selection_by_period , career_data_summary , get_distance_df , find_similar_players , find_teammates, create_stacked_shot_selection_bar , made_shot_kde , missed_shot_kde, zone_chart
 import nba_api
 from nba_api.stats.static import players
 
@@ -183,8 +183,20 @@ class App(customtkinter.CTk):
         
     def button3_click(self):
         
-        window = customtkinter.CTkToplevel(self)
-        window.geometry("600x650")
+        self.button_3_window = customtkinter.CTkToplevel(self)
+        self.button_3_window.geometry("600x678")
+        self.button_3_window.title(f'{self.entry.get().title()} Shot Chart {self.year.get()} Season')
+        
+        self.frame_top_button_3 = customtkinter.CTkFrame(master=self.button_3_window,
+                                                 height=0.25,
+                                                 corner_radius=20)
+        self.frame_bot_button_3 = customtkinter.CTkFrame(master=self.button_3_window,
+                                                 height=0.75,
+                                                 corner_radius=20)
+        
+        self.frame_top_button_3.grid(row=0, column=0, sticky="nswe" , pady= 10)
+        self.frame_bot_button_3.grid(row=1, column=0, sticky="nswe") #pady=20)
+        
         
         f = Figure(figsize = (5,5) , dpi = 100)
         ax = f.add_subplot(111)
@@ -193,18 +205,28 @@ class App(customtkinter.CTk):
         #f.colorbar(hex_map)
         
         
-        canvas = FigureCanvasTkAgg(f , master = window)
+        canvas = FigureCanvasTkAgg(f , master =  self.frame_bot_button_3)
         canvas.draw()
-        canvas.get_tk_widget().pack(side = tk.TOP , fill = tk.BOTH , expand = True)
-        window.title(f'{self.entry.get().title()} Shot Chart {self.year.get()} Season')
+        canvas.get_tk_widget().pack(side = tk.TOP , fill = tk.BOTH, expand = True)
         
-        toolbar = NavigationToolbar2Tk(canvas,
-                                   window)
+        #toolbar = NavigationToolbar2Tk(canvas,
+                                   #self.frame_top_button_3)
         
-        toolbar.update()
-        canvas.get_tk_widget().pack()
+        #toolbar.update()
+        #canvas.get_tk_widget().pack()
         
-        get_distance_df(self.entry.get().lower() , self.year.get() , frame = window)
+        get_distance_df(self.entry.get().lower() , self.year.get() , frame =  self.frame_bot_button_3)
+        
+        self.zones_button = customtkinter.CTkButton(master = self.frame_top_button_3,
+                                                           width = 120,
+                                                           height = 32,
+                                                           border_width=0,
+                                                           corner_radius=8,
+                                                           text = "Show Shot Zone Statistics" ,
+                                                           command = self.zones_button_3_click)
+        self.zones_button.pack()
+        #zone_chart(self.entry.get().lower() , self.year.get() , frame = window)
+        
     
     def button4_click(self):
         self.button_4_window = customtkinter.CTkToplevel(self)
@@ -374,6 +396,14 @@ class App(customtkinter.CTk):
         
         self.missed_window.title(f'{self.entry.get().title()} KDE missed shots Season: {self.year.get()}')
     
+    def zones_button_3_click(self):
+        self.zone_window = customtkinter.CTkToplevel(self.button_3_window)
+        self.zone_window.geometry("800x150")
+        
+        zone_chart(player_name= self.entry.get().lower() , season_id = self.year.get() , frame = self.zone_window)
+        
+        self.zone_window.title(f'{self.entry.get().title()} Shooting Zone Statistics for {self.year.get()} Season')
+        
     def similar_players_button_click(self):
         window = customtkinter.CTkToplevel(self)
         window.geometry("600x650")

@@ -609,7 +609,42 @@ def create_stacked_shot_selection_bar(player_name , season_id , ax):
     ax.set_ylabel('Number of Shots')
     ax.set_xlabel('Month')
     
+def zone_chart(player_name , season_id , frame):
+    # Add Frame
+    zone_df = get_player_shotchartdetail(player_name , season_id)[0][['SHOT_ZONE_BASIC' , 'SHOT_MADE_FLAG']]
+    zone_df_grouped = zone_df.groupby('SHOT_ZONE_BASIC')['SHOT_MADE_FLAG'].agg(['mean' , 'sum', 'size'])
+    zone_df_grouped.reset_index(inplace = True)
+    zone_df_grouped.columns = ['Shot Zone' , 'Shooting Percentage' , 'Shots Made' , 'Shots Taken']
+    zone_df_grouped.sort_values('Shots Taken' , ascending = True , inplace = True)
+    
+    zone_cols = list(zone_df_grouped.columns)
+    
+    tree = ttk.Treeview(frame)
+    ttk.Style().configure("Treeview", background="#292929", 
+                          foreground="#FFFFFF", fieldbackground="#292929")
+    tree.pack()
+    tree["columns"] = zone_cols
+    tree['show'] = 'headings'
+    
+    tree.heading('Shot Zone', text='Shot Zone')
+    tree.heading('Shooting Percentage', text='Shooting Percentage')
+    tree.heading('Shots Made' , text = 'Shots Made')
+    tree.heading('Shots Taken', text='Shots Taken')
+    
+    for index, row in zone_df_grouped.iterrows():
+        tree.insert("",0,text=index,values=list(row))
+
+
 
 
 if __name__ == '__main__':
-    print('')
+    zone_chart('jaden mcdaniels' , '2022-23')
+    
+    
+    
+    
+    
+    
+    
+    
+    
