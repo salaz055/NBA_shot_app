@@ -184,7 +184,7 @@ class App(customtkinter.CTk):
     def button3_click(self):
         
         self.button_3_window = customtkinter.CTkToplevel(self)
-        self.button_3_window.geometry("600x678")
+        self.button_3_window.geometry("600x698")
         self.button_3_window.title(f'{self.entry.get().title()} Shot Chart {self.year.get()} Season')
         
         self.frame_top_button_3 = customtkinter.CTkFrame(master=self.button_3_window,
@@ -194,7 +194,7 @@ class App(customtkinter.CTk):
                                                  height=0.75,
                                                  corner_radius=20)
         
-        self.frame_top_button_3.grid(row=0, column=0, sticky="nswe" , pady= 10)
+        self.frame_top_button_3.grid(row=0, column=0, sticky="nswe" , pady= 10 , padx = 10)
         self.frame_bot_button_3.grid(row=1, column=0, sticky="nswe") #pady=20)
         
         
@@ -222,9 +222,9 @@ class App(customtkinter.CTk):
                                                            height = 32,
                                                            border_width=0,
                                                            corner_radius=8,
-                                                           text = "Show Shot Zone Statistics" ,
+                                                           text = "Shot Zone Statistics" ,
                                                            command = self.zones_button_3_click)
-        self.zones_button.pack()
+        self.zones_button.pack(pady = 10)
         #zone_chart(self.entry.get().lower() , self.year.get() , frame = window)
         
     
