@@ -615,7 +615,9 @@ def zone_chart(player_name , season_id , frame):
     zone_df_grouped = zone_df.groupby('SHOT_ZONE_BASIC')['SHOT_MADE_FLAG'].agg(['mean' , 'sum', 'size'])
     zone_df_grouped.reset_index(inplace = True)
     zone_df_grouped.columns = ['Shot Zone' , 'Shooting Percentage' , 'Shots Made' , 'Shots Taken']
+    zone_df_grouped['Shooting Percentage'] = (zone_df_grouped['Shooting Percentage'] * 100).round(2)
     zone_df_grouped.sort_values('Shots Taken' , ascending = True , inplace = True)
+    print(zone_df_grouped.head(4))
     
     zone_cols = list(zone_df_grouped.columns)
     

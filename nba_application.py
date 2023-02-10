@@ -198,7 +198,7 @@ class App(customtkinter.CTk):
         self.frame_bot_button_3.grid(row=1, column=0, sticky="nswe") #pady=20)
         
         
-        f = Figure(figsize = (5,5) , dpi = 100)
+        f = Figure(figsize = (4,5) , dpi = 100)
         ax = f.add_subplot(111)
         
         shot_chart_use(self.entry.get().lower(), self.year.get() , ax)
