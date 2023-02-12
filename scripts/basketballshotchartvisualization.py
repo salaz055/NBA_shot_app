@@ -617,7 +617,7 @@ def zone_chart(player_name , season_id , frame):
     zone_df_grouped.columns = ['Shot Zone' , 'Shooting Percentage' , 'Shots Made' , 'Shots Taken']
     zone_df_grouped['Shooting Percentage'] = (zone_df_grouped['Shooting Percentage'] * 100).round(2)
     zone_df_grouped.sort_values('Shots Taken' , ascending = True , inplace = True)
-    print(zone_df_grouped.head(4))
+    #print(zone_df_grouped.head(4))
     
     zone_cols = list(zone_df_grouped.columns)
     
@@ -640,7 +640,7 @@ def zone_chart(player_name , season_id , frame):
 
 
 if __name__ == '__main__':
-    zone_chart('jaden mcdaniels' , '2022-23')
+    #zone_chart('jaden mcdaniels' , '2022-23')
     
     
     
