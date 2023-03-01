@@ -22,7 +22,6 @@ from PIL import ImageTk, Image
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
-# os.chdir(r'C:\Users\salaz\OneDrive\Desktop\Projects\NBA')
 
 customtkinter.set_appearance_mode("System")  # Modes: "System" (standard), "Dark", "Light"
 customtkinter.set_default_color_theme("blue")  # Themes: "blue" (standard), "green", "dark-blue"
@@ -198,7 +197,7 @@ class App(customtkinter.CTk):
         self.frame_bot_button_3.grid(row=1, column=0, sticky="nswe") #pady=20)
         
         
-        f = Figure(figsize = (4,5) , dpi = 100)
+        f = Figure(figsize = (5,5) , dpi = 100)
         ax = f.add_subplot(111)
         
         shot_chart_use(self.entry.get().lower(), self.year.get() , ax)

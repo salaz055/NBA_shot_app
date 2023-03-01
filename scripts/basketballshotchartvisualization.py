@@ -640,7 +640,7 @@ def zone_chart(player_name , season_id , frame):
 
 
 if __name__ == '__main__':
-    #zone_chart('jaden mcdaniels' , '2022-23')
+    zone_chart('jaden mcdaniels' , '2022-23')
     
     
     
