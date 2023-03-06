@@ -30,6 +30,11 @@ The career satistics button will prompt the tool to show:
 - nba_api: https://github.com/swar/nba_api
 - CustomTkinter: https://github.com/TomSchimansky/CustomTkinter
 - Other requirements are in the requirements.txt file
-
+- If 'remove_na' error occurs with seaborn. Refer to [this](https://stackoverflow.com/questions/60486125/i-am-facing-this-issue-in-seaborn-import) thread. 
+'''
+pip3 uninstall seaborn
+pip3 install seaborn
+'''
+should solve this issue.
 ## NBA.com
 NBA.com has a [Terms of Use](https://www.nba.com/termsofuse) regarding the use of the NBA’s digital platforms.
