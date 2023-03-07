@@ -14,7 +14,7 @@ The interface allows users to create:
 The tool also allows the user to find/compare similar players found through KMeans and quickly compare a player to their teammates.
 
 ## Career Statistics 
-The career satistics button will prompt the tool to show:
+The career satistics button will prompt the app to show:
 - The career statistics table for the player selected
 - The similar player comparison tool: This includes a drop down menu to choose from 10 of the most similar players, a season/year dropdown, and a button to quickly create a shot chart for the similar player/season selected.
 - The teammate comparison tool: This includes a drop down menu to choose from teammates for the player, a season/year dropdown, and a button to quickly create a shot chart for the teammate/season selected.
