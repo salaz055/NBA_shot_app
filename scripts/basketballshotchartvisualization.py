@@ -521,10 +521,10 @@ def find_similar_players(player_name):
     
 def find_teammates(player_name):
     lower_player_name = player_name.lower()
-    df = pd.read_csv(r'datasets\active_players_teams_lower.csv')
+    df = pd.read_csv(r'datasets\active_players_teams_lower_3-8-23.csv')
     player_team = df[df['Name'] == lower_player_name]['Team'].values[0]
     teammates = df[df['Team'] == player_team]['Name'].tolist()
-    return [teammate.title() for teammate in teammates]
+    return [teammate.title() for teammate in teammates if teammate != lower_player_name]
 
 def missed_shot_kde(player_name , season_id):
     cmap_red =plt.cm.gist_heat_r
