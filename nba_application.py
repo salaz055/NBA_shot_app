@@ -9,7 +9,7 @@ from tkinter import *
 import os
 import tkinter as tk
 import customtkinter
-from scripts.basketballshotchartvisualization import get_player_shotchartdetail , shot_chart_use , draw_court ,  create_heatmap , create_jointgrid , create_hex_map , create_shot_chart, create_kde , shot_chart , shot_selection_by_period , career_data_summary , get_distance_df , find_similar_players , find_teammates, create_stacked_shot_selection_bar , made_shot_kde , missed_shot_kde, zone_chart
+from scripts.basketballshotchartvisualization import *
 import nba_api
 from nba_api.stats.static import players
 
