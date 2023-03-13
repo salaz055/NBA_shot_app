@@ -32,8 +32,10 @@ The career statistics button will prompt the app to show:
 - Other requirements are in the requirements.txt file
 - If 'remove_na' error occurs with seaborn. Refer to [this](https://stackoverflow.com/questions/60486125/i-am-facing-this-issue-in-seaborn-import) thread. 
 
+'''
     pip3 uninstall seaborn
     pip3 install seaborn
+'''
 
 should solve this issue.
 
